@@ -17,6 +17,7 @@ services:
     container_name: nextcloud-app
     ports:
       - 8881:80
+    restart: always
     volumes:
       - nextcloud_data:/var/www/html
     environment:
