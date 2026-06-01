@@ -10,38 +10,36 @@ services:
     environment:
       POSTGRES_DB: nextcloud
       POSTGRES_USER: raselstr
-      POSTGRES_PASSWORD: R@83l8tr
+      POSTGRES_PASSWORD: r283l8tr
+    
+    networks:
+      - production_network
 
   app:
     image: nextcloud:latest
     container_name: nextcloud-app
-    ports:
-      - 8881:80
+    expose:
+      - "80"
+    # ports:
+    #   - 8881:80
     restart: always
     volumes:
       - nextcloud_data:/var/www/html
+    networks:
+      - production_network
     environment:
       POSTGRES_HOST: db
       POSTGRES_DB: nextcloud
       POSTGRES_USER: raselstr
-      POSTGRES_PASSWORD: R@83l8tr
+      POSTGRES_PASSWORD: r283l8tr
     depends_on:
       - db
-
-  nginx:
-    image: nginx:latest
-    container_name: nextcloud-nginx
-    restart: always
-    ports:
-      - 8880:80
-      - 443:443
-    volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
-      - nextcloud_data:/var/www/html
-      - /etc/ssl/certs:/etc/ssl/certs
-    depends_on:
-      - app
+    
 
 volumes:
   db_data:
   nextcloud_data:
+
+networks:
+  production_network:
+    external: true
