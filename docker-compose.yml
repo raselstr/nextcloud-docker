@@ -1,40 +1,47 @@
-version: '3.9'
-
 services:
   db:
     image: postgres:14
     container_name: nextcloud-db
     restart: always
-    volumes:
-      - db_data:/var/lib/postgresql/data
+
     environment:
       POSTGRES_DB: nextcloud
       POSTGRES_USER: raselstr
       POSTGRES_PASSWORD: r283l8tr
-    
+
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
     networks:
       - production_network
 
   app:
     image: nextcloud:latest
     container_name: nextcloud-app
+    restart: always
+
     expose:
       - "80"
-    # ports:
-    #   - 8881:80
-    restart: always
-    volumes:
-      - nextcloud_data:/var/www/html
-    networks:
-      - production_network
+
     environment:
       POSTGRES_HOST: db
       POSTGRES_DB: nextcloud
       POSTGRES_USER: raselstr
       POSTGRES_PASSWORD: r283l8tr
+
+      NEXTCLOUD_DOMAIN: ${NEXTCLOUD_DOMAIN}
+      NEXTCLOUD_PROTOCOL: ${NEXTCLOUD_PROTOCOL}
+
+    volumes:
+      - nextcloud_data:/var/www/html
+      - ./config:/opt/config
+      - ./entrypoint.sh:/docker-entrypoint-hooks.d/before-starting/10-domain.sh:ro
+
     depends_on:
       - db
-    
+
+    networks:
+      - production_network
 
 volumes:
   db_data:
