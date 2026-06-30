@@ -1,0 +1,216 @@
+# Panduan Upgrade Nextcloud Docker dari Versi 31 ke 34
+
+## Persiapan
+
+1. Backup database PostgreSQL.
+2. Backup volume Nextcloud (`nextcloud_data`).
+3. Pastikan menggunakan image dengan tag versi mayor (misalnya `31-apache`), **bukan** `latest`.
+
+---
+
+# Tahap 1 – Upgrade 31 ke 31 terbaru
+
+Ubah image menjadi:
+
+```yaml
+image: nextcloud:31-apache
+```
+
+Jalankan:
+
+```bash
+docker compose pull
+docker compose up -d
+docker exec -it nextcloud-app php occ upgrade
+docker exec -it nextcloud-app php occ maintenance:repair
+```
+
+Pastikan:
+
+```bash
+docker exec -it nextcloud-app php occ status
+```
+
+Hasilnya:
+
+* version: 31.x terbaru
+* maintenance: false
+* needsDbUpgrade: false
+
+---
+
+# Tahap 2 – Upgrade ke Nextcloud 32
+
+Ubah image menjadi:
+
+```yaml
+image: nextcloud:32-apache
+```
+
+Kemudian jalankan:
+
+```bash
+docker compose pull
+docker compose up -d
+docker exec -it nextcloud-app php occ upgrade
+docker exec -it nextcloud-app php occ maintenance:repair
+```
+
+Pastikan kembali:
+
+```bash
+docker exec -it nextcloud-app php occ status
+```
+
+---
+
+# Tahap 3 – Upgrade ke Nextcloud 33
+
+Ubah image menjadi:
+
+```yaml
+image: nextcloud:33-apache
+```
+
+Kemudian jalankan:
+
+```bash
+docker compose pull
+docker compose up -d
+docker exec -it nextcloud-app php occ upgrade
+docker exec -it nextcloud-app php occ maintenance:repair
+```
+
+Periksa kembali status:
+
+```bash
+docker exec -it nextcloud-app php occ status
+```
+
+---
+
+# Tahap 4 – Upgrade ke Nextcloud 34
+
+Ubah image menjadi:
+
+```yaml
+image: nextcloud:34-apache
+```
+
+Kemudian jalankan:
+
+```bash
+docker compose pull
+docker compose up -d
+docker exec -it nextcloud-app php occ upgrade
+docker exec -it nextcloud-app php occ maintenance:repair
+```
+
+Pastikan status:
+
+```bash
+docker exec -it nextcloud-app php occ status
+```
+
+Harus menunjukkan:
+
+* maintenance: false
+* needsDbUpgrade: false
+
+---
+
+docker exec -it nextcloud-app bash -> php occ maintenance:mode --off
+
+# Setelah setiap upgrade
+
+Jalankan:
+
+```bash
+docker exec -it nextcloud-app php occ db:add-missing-indices
+docker exec -it nextcloud-app php occ db:add-missing-columns
+docker exec -it nextcloud-app php occ db:add-missing-primary-keys
+```
+
+Apabila tidak ada yang perlu diperbaiki, Nextcloud akan menampilkan pesan bahwa tidak ada perubahan yang diperlukan.
+
+---
+
+# Ringkasan
+
+31-apache
+
+↓
+
+docker compose pull
+
+↓
+
+docker compose up -d
+
+↓
+
+php occ upgrade
+
+↓
+
+31 terbaru
+
+↓
+
+32-apache
+
+↓
+
+docker compose pull
+
+↓
+
+docker compose up -d
+
+↓
+
+php occ upgrade
+
+↓
+
+32 terbaru
+
+↓
+
+33-apache
+
+↓
+
+docker compose pull
+
+↓
+
+docker compose up -d
+
+↓
+
+php occ upgrade
+
+↓
+
+33 terbaru
+
+↓
+
+34-apache
+
+↓
+
+docker compose pull
+
+↓
+
+docker compose up -d
+
+↓
+
+php occ upgrade
+
+↓
+
+34 terbaru

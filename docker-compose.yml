@@ -5,9 +5,9 @@ services:
     restart: always
 
     environment:
-      POSTGRES_DB: nextcloud
-      POSTGRES_USER: raselstr
-      POSTGRES_PASSWORD: r283l8tr
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
 
     volumes:
       - db_data:/var/lib/postgresql/data
@@ -16,7 +16,7 @@ services:
       - production_network
 
   app:
-    image: nextcloud:latest
+    image: nextcloud:34-apache
     container_name: nextcloud-app
     restart: always
 
@@ -24,10 +24,10 @@ services:
       - "80"
 
     environment:
-      POSTGRES_HOST: db
-      POSTGRES_DB: nextcloud
-      POSTGRES_USER: raselstr
-      POSTGRES_PASSWORD: r283l8tr
+      POSTGRES_HOST: ${POSTGRES_HOST}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
 
       NEXTCLOUD_DOMAIN: ${NEXTCLOUD_DOMAIN}
       NEXTCLOUD_PROTOCOL: ${NEXTCLOUD_PROTOCOL}
