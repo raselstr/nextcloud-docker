@@ -2,6 +2,7 @@
 # =============================================================================
 # nextcloud-manage.sh
 # Script manajemen Nextcloud Docker: start, stop, restart, update, dan cek status
+# Deteksi otomatis versi major terbaru via GitHub API + Docker Hub
 # =============================================================================
 
 set -euo pipefail
@@ -13,6 +14,10 @@ LOG_FILE="${SCRIPT_DIR}/nextcloud-manage.log"
 CONTAINER_APP="nextcloud-app"
 CONTAINER_DB="nextcloud-db"
 
+# Notifikasi (opsional) — isi NOTIFY_URL dengan webhook Slack/Discord/n8n/dll
+# Kosongkan untuk menonaktifkan
+NOTIFY_URL=""
+
 # Warna terminal
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -23,6 +28,16 @@ NC='\033[0m' # No Color
 # ─────────────────────────────────────────────────────────────
 # FUNGSI UTILITAS
 # ─────────────────────────────────────────────────────────────
+
+notify() {
+    # Kirim notifikasi ke webhook jika NOTIFY_URL diisi
+    local msg="$1"
+    if [[ -n "${NOTIFY_URL:-}" ]]; then
+        curl -s -X POST "${NOTIFY_URL}" \
+            -H "Content-Type: application/json" \
+            -d "{\"text\":\"[Nextcloud] ${msg}\"}" &>/dev/null || true
+    fi
+}
 
 log() {
     local level="$1"; shift
@@ -188,6 +203,133 @@ cmd_update() {
     log "INFO " "Upgrade log: ${current_version} -> ${new_version} pada $(date '+%Y-%m-%d %H:%M:%S')"
 }
 
+# ─────────────────────────────────────────────────────────────
+# DETEKSI VERSI TERBARU (GitHub API + Docker Hub)
+# ─────────────────────────────────────────────────────────────
+
+get_latest_major_from_github() {
+    # Kembalikan angka major version terbaru yang stable dari GitHub releases
+    # Contoh output: "35"
+    curl -s "https://api.github.com/repos/nextcloud/server/releases?per_page=30" \
+    | python3 -c "
+import sys, json, re
+try:
+    releases = json.load(sys.stdin)
+    seen = {}
+    for r in releases:
+        tag = r.get('tag_name','')
+        m = re.match(r'^v(\d+)\.(\d+)\.(\d+)', tag)
+        if m and not r.get('prerelease') and not r.get('draft'):
+            major = int(m.group(1))
+            if major not in seen:
+                seen[major] = (int(m.group(2)), int(m.group(3)), tag)
+    latest = max(seen.keys())
+    print(latest)
+except Exception as e:
+    sys.exit(1)
+" 2>/dev/null
+}
+
+get_latest_patch_from_github() {
+    # Kembalikan versi patch terbaru untuk major tertentu
+    # Contoh: get_latest_patch_from_github 34  →  "34.0.5"
+    local major="${1}"
+    curl -s "https://api.github.com/repos/nextcloud/server/releases?per_page=30" \
+    | python3 -c "
+import sys, json, re
+major = int('${major}')
+try:
+    releases = json.load(sys.stdin)
+    best = None
+    for r in releases:
+        tag = r.get('tag_name','')
+        m = re.match(r'^v(\d+)\.(\d+)\.(\d+)', tag)
+        if m and int(m.group(1)) == major and not r.get('prerelease') and not r.get('draft'):
+            ver = (int(m.group(2)), int(m.group(3)))
+            if best is None or ver > best[0]:
+                best = (ver, tag)
+    if best:
+        print(best[1].lstrip('v'))
+except:
+    sys.exit(1)
+" 2>/dev/null
+}
+
+major_tag_exists_on_dockerhub() {
+    # Cek apakah tag XX-apache tersedia di Docker Hub
+    local major="${1}"
+    curl -s "https://hub.docker.com/v2/repositories/library/nextcloud/tags/${major}-apache" \
+        2>/dev/null | python3 -c "
+import sys, json
+try:
+    d = json.load(sys.stdin)
+    print('yes' if 'name' in d else 'no')
+except:
+    print('no')
+"
+}
+
+cmd_check_version() {
+    echo ""
+    echo -e "${CYAN}═══════════ CEK VERSI NEXTCLOUD ═══════════${NC}"
+
+    # Versi terpasang
+    local installed_version
+    installed_version=$(occ status 2>/dev/null | grep 'version:' | awk '{print $3}')
+    local installed_major
+    installed_major=$(echo "${installed_version}" | cut -d. -f1)
+
+    echo -e "  Versi terpasang    : ${GREEN}${installed_version}${NC} (major ${installed_major})"
+
+    # Cek GitHub
+    info "Memeriksa versi terbaru via GitHub API..."
+    local latest_major
+    latest_major=$(get_latest_major_from_github)
+    local latest_patch_current_major
+    latest_patch_current_major=$(get_latest_patch_from_github "${installed_major}")
+    local latest_patch_latest_major
+    latest_patch_latest_major=$(get_latest_patch_from_github "${latest_major}")
+
+    echo -e "  Patch terbaru (v${installed_major}): ${YELLOW}${latest_patch_current_major}${NC}"
+    echo -e "  Major terbaru      : ${YELLOW}v${latest_major} (${latest_patch_latest_major})${NC}"
+    echo ""
+
+    # Bandingkan
+    local installed_major_ver
+    installed_major_ver=$(echo "${installed_version}" | cut -d. -f1)
+
+    if [[ "${latest_major}" -gt "${installed_major_ver}" ]]; then
+        warn "⬆  Ada MAJOR VERSION baru: ${installed_major_ver} → ${latest_major}"
+        warn "   Jalankan: $0 auto-upgrade"
+        echo ""
+        # Cek apakah sudah ada di Docker Hub
+        local hub_available
+        hub_available=$(major_tag_exists_on_dockerhub "${latest_major}")
+        if [[ "${hub_available}" == "yes" ]]; then
+            success "✓  Image nextcloud:${latest_major}-apache sudah tersedia di Docker Hub."
+        else
+            warn "✗  Image nextcloud:${latest_major}-apache BELUM tersedia di Docker Hub."
+        fi
+    else
+        success "✓  Sudah menggunakan major version terbaru (v${latest_major})."
+    fi
+
+    # Cek patch update di major yang sama
+    local iv_minor iv_patch lp_minor lp_patch
+    iv_minor=$(echo "${installed_version}" | cut -d. -f2)
+    iv_patch=$(echo "${installed_version}" | cut -d. -f3)
+    lp_minor=$(echo "${latest_patch_current_major}" | cut -d. -f2)
+    lp_patch=$(echo "${latest_patch_current_major}" | cut -d. -f3)
+    if [[ "${lp_minor}" -gt "${iv_minor}" ]] || \
+       { [[ "${lp_minor}" -eq "${iv_minor}" ]] && [[ "${lp_patch}" -gt "${iv_patch}" ]]; }; then
+        warn "⬆  Ada patch update: ${installed_version} → ${latest_patch_current_major}"
+        warn "   Jalankan: $0 update"
+    else
+        success "✓  Versi patch sudah terkini."
+    fi
+    echo ""
+}
+
 cmd_upgrade_major() {
     # Upgrade antar major version (mis. 33 → 34)
     local target_major="${1:-}"
@@ -212,6 +354,14 @@ cmd_upgrade_major() {
         local next=$((v + 1))
         warn "━━━ Upgrade major: ${v} → ${next} ━━━"
 
+        # Cek Docker Hub dulu sebelum upgrade
+        local available
+        available=$(major_tag_exists_on_dockerhub "${next}")
+        if [[ "${available}" != "yes" ]]; then
+            error "Image nextcloud:${next}-apache belum tersedia di Docker Hub. Hentikan."
+            exit 1
+        fi
+
         # Ganti tag di docker-compose.yml
         sed -i "s|image: nextcloud:${v}-apache|image: nextcloud:${next}-apache|g" "${COMPOSE_FILE}"
 
@@ -229,11 +379,76 @@ cmd_upgrade_major() {
         ver=$(occ status 2>/dev/null | grep 'version:' | awk '{print $3}')
         success "Berhasil upgrade ke Nextcloud ${ver}"
         log "INFO " "Major upgrade: ${v} -> ${next} (${ver}) selesai pada $(date '+%Y-%m-%d %H:%M:%S')"
+        notify "Major upgrade selesai: v${v} → v${next} (${ver})"
 
         v="${next}"
     done
 
     success "Semua major upgrade selesai. Versi aktif: $(occ status | grep 'version:' | awk '{print $3}')"
+}
+
+cmd_auto_upgrade() {
+    # Deteksi versi terbaru dan upgrade otomatis (patch + major)
+    echo ""
+    echo -e "${CYAN}═══════════ AUTO-UPGRADE NEXTCLOUD ═══════════${NC}"
+
+    local installed_version
+    installed_version=$(occ status 2>/dev/null | grep 'version:' | awk '{print $3}')
+    local installed_major
+    installed_major=$(echo "${installed_version}" | cut -d. -f1)
+
+    info "Versi terpasang: ${installed_version} (major ${installed_major})"
+    info "Memeriksa versi terbaru via GitHub API..."
+
+    local latest_major
+    latest_major=$(get_latest_major_from_github)
+
+    if [[ -z "${latest_major}" ]]; then
+        error "Gagal mengambil informasi versi terbaru dari GitHub. Periksa koneksi internet."
+        exit 1
+    fi
+
+    info "Major terbaru yang tersedia: v${latest_major}"
+
+    if [[ "${latest_major}" -le "${installed_major}" ]]; then
+        info "Tidak ada major upgrade. Memeriksa patch update..."
+        cmd_update
+        return
+    fi
+
+    # Ada major upgrade tersedia
+    warn "Major upgrade tersedia: ${installed_major} → ${latest_major}"
+
+    # Cek apakah semua image antara tersedia di Docker Hub
+    local missing_images=()
+    for ((v=installed_major+1; v<=latest_major; v++)); do
+        local avail
+        avail=$(major_tag_exists_on_dockerhub "${v}")
+        if [[ "${avail}" != "yes" ]]; then
+            missing_images+=("nextcloud:${v}-apache")
+        fi
+    done
+
+    if [[ ${#missing_images[@]} -gt 0 ]]; then
+        error "Image berikut belum tersedia di Docker Hub: ${missing_images[*]}"
+        error "Tidak bisa upgrade otomatis. Tunggu hingga image tersedia."
+        exit 1
+    fi
+
+    success "Semua image tersedia di Docker Hub. Memulai upgrade bertahap..."
+    notify "Memulai auto-upgrade: v${installed_major} → v${latest_major}"
+
+    # Jalankan upgrade major satu per satu
+    cmd_upgrade_major "${latest_major}"
+
+    # Setelah major upgrade, terapkan patch terbaru juga
+    info "Memeriksa patch terbaru pasca major upgrade..."
+    cmd_update
+
+    local final_version
+    final_version=$(occ status 2>/dev/null | grep 'version:' | awk '{print $3}')
+    success "Auto-upgrade selesai. Versi akhir: ${final_version}"
+    notify "Auto-upgrade selesai. Versi akhir: ${final_version}"
 }
 
 cmd_maintenance_off() {
@@ -270,15 +485,19 @@ usage() {
     echo -e "  ${YELLOW}restart${NC}                 Restart Nextcloud"
     echo -e "  ${YELLOW}status${NC}                  Tampilkan status container dan OCC"
     echo -e "  ${YELLOW}logs [n]${NC}                Tampilkan log (default 100 baris, -f realtime)"
+    echo -e "  ${YELLOW}check-version${NC}           Cek versi terbaru di GitHub & Docker Hub tanpa upgrade"
     echo -e "  ${YELLOW}update${NC}                  Cek & terapkan update patch (dalam major version yang sama)"
-    echo -e "  ${YELLOW}upgrade-major <ver>${NC}     Upgrade ke major version baru (mis: upgrade-major 35)"
+    echo -e "  ${YELLOW}auto-upgrade${NC}            Deteksi & upgrade otomatis (patch + major) via GitHub API"
+    echo -e "  ${YELLOW}upgrade-major <ver>${NC}     Upgrade ke major version tertentu (mis: upgrade-major 35)"
     echo -e "  ${YELLOW}maintenance-off${NC}         Matikan maintenance mode secara paksa"
     echo -e "  ${YELLOW}backup-db${NC}               Backup database PostgreSQL"
     echo ""
     echo "Contoh:"
     echo "  $0 start"
-    echo "  $0 update"
-    echo "  $0 upgrade-major 35"
+    echo "  $0 check-version        # cek versi tanpa melakukan apa-apa"
+    echo "  $0 update               # patch update (34.0.5 → 34.0.6)"
+    echo "  $0 auto-upgrade         # otomatis patch + major (34 → 35)"
+    echo "  $0 upgrade-major 35     # manual major upgrade ke v35"
     echo "  $0 logs 200"
     echo ""
 }
@@ -297,7 +516,9 @@ main() {
         restart)         cmd_restart ;;
         status)          cmd_status ;;
         logs)            cmd_logs "${@}" ;;
+        check-version)   cmd_check_version ;;
         update)          cmd_update ;;
+        auto-upgrade)    cmd_auto_upgrade ;;
         upgrade-major)   cmd_upgrade_major "${@}" ;;
         maintenance-off) cmd_maintenance_off ;;
         backup-db)       cmd_backup_db ;;

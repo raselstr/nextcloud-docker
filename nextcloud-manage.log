@@ -1,1 +1,12 @@
 2026-11-02 10:02:00 [OK   ] [0;32m✓  Nextcloud berjalan normal (bukan maintenance mode).[0m
+2026-11-02 10:09:44 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-02 10:09:45 [WARN ] [1;33m⬆  Ada MAJOR VERSION baru: 34 → 35[0m
+2026-11-02 10:09:46 [WARN ] [1;33m   Jalankan: nextcloud-manage.sh auto-upgrade[0m
+2026-11-02 10:09:46 [OK   ] [0;32m✓  Image nextcloud:35-apache sudah tersedia di Docker Hub.[0m
+2026-11-02 10:09:46 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-02 10:13:00 [INFO ] [0;36mVersi terpasang: 34.0.5.1 (major 34)[0m
+2026-11-02 10:13:00 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-02 10:13:01 [INFO ] [0;36mMajor terbaru yang tersedia: v35[0m
+2026-11-02 10:13:01 [WARN ] [1;33mMajor upgrade tersedia: 34 → 35[0m
+2026-11-02 10:13:02 [OK   ] [0;32mSemua image tersedia di Docker Hub. Memulai upgrade bertahap...[0m
+2026-11-02 10:13:02 [WARN ] [1;33m━━━ Upgrade major: 34 → 35 ━━━[0m
