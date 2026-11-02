@@ -2,3 +2,11 @@
 #./nextcloud-manage.sh check-version
 ## Upgrade otomatis patch + major secara penuh
 #./nextcloud-manage.sh auto-upgrade
+
+#./nextcloud-manage.sh start
+#./nextcloud-manage.sh status
+#./nextcloud-manage.sh check-version
+#./nextcloud-manage.sh update
+#./nextcloud-manage.sh backup-db
+#./nextcloud-manage.sh backup-db
+#./nextcloud-manage.sh auto-upgrade

@@ -13,6 +13,7 @@ ENV_FILE="${SCRIPT_DIR}/.env"
 LOG_FILE="${SCRIPT_DIR}/nextcloud-manage.log"
 CONTAINER_APP="nextcloud-app"
 CONTAINER_DB="nextcloud-db"
+DOCKER_NETWORK="production_network"
 
 # Notifikasi (opsional) — isi NOTIFY_URL dengan webhook Slack/Discord/n8n/dll
 # Kosongkan untuk menonaktifkan
@@ -56,6 +57,65 @@ occ() {
     docker exec "${CONTAINER_APP}" php occ "$@"
 }
 
+preflight() {
+    local key
+
+    command -v docker >/dev/null 2>&1 || {
+        error "Docker tidak ditemukan. Pasang Docker terlebih dahulu."
+        exit 1
+    }
+    docker compose version >/dev/null 2>&1 || {
+        error "Docker Compose plugin tidak tersedia."
+        exit 1
+    }
+    docker info >/dev/null 2>&1 || {
+        error "Docker daemon tidak berjalan atau akses ditolak."
+        exit 1
+    }
+
+    [[ -f "${COMPOSE_FILE}" ]] || {
+        error "File Compose tidak ditemukan: ${COMPOSE_FILE}"
+        exit 1
+    }
+    [[ -f "${ENV_FILE}" ]] || {
+        error "File konfigurasi tidak ditemukan: ${ENV_FILE}"
+        exit 1
+    }
+
+    for key in POSTGRES_DB POSTGRES_USER POSTGRES_PASSWORD POSTGRES_HOST NEXTCLOUD_DOMAIN NEXTCLOUD_PROTOCOL; do
+        if ! grep -Eq "^[[:space:]]*${key}[[:space:]]*=[[:space:]]*[^[:space:]#]" "${ENV_FILE}"; then
+            error "Variabel ${key} belum diisi di ${ENV_FILE}."
+            exit 1
+        fi
+    done
+
+    docker compose -f "${COMPOSE_FILE}" --env-file "${ENV_FILE}" config --quiet || {
+        error "Validasi konfigurasi Docker Compose gagal."
+        exit 1
+    }
+}
+
+ensure_network() {
+    if ! docker network inspect "${DOCKER_NETWORK}" >/dev/null 2>&1; then
+        info "Membuat jaringan Docker ${DOCKER_NETWORK}..."
+        docker network create "${DOCKER_NETWORK}" >/dev/null
+    fi
+}
+
+wait_for_db() {
+    info "Menunggu database PostgreSQL siap..."
+    local max=120 elapsed=0
+    until docker exec "${CONTAINER_DB}" pg_isready -q >/dev/null 2>&1; do
+        sleep 3
+        elapsed=$((elapsed + 3))
+        if [[ ${elapsed} -ge ${max} ]]; then
+            error "Timeout: database tidak siap setelah ${max}s. Periksa log container database."
+            exit 1
+        fi
+    done
+    success "Database siap."
+}
+
 wait_for_app() {
     info "Menunggu container ${CONTAINER_APP} siap..."
     local max=60 elapsed=0
@@ -86,15 +146,37 @@ post_upgrade() {
     success "Repair pasca upgrade selesai."
 }
 
+ensure_app_ready() {
+    preflight
+    ensure_network
+
+    cd "${SCRIPT_DIR}"
+    docker compose -f "${COMPOSE_FILE}" --env-file "${ENV_FILE}" up -d db
+    wait_for_db
+    docker compose -f "${COMPOSE_FILE}" --env-file "${ENV_FILE}" up -d app
+    wait_for_app
+
+    local needs_upgrade maintenance
+    needs_upgrade=$(occ status 2>/dev/null | awk -F': ' '$1 ~ /needsDbUpgrade/ {print $2; exit}')
+    maintenance=$(occ status 2>/dev/null | awk -F': ' '$1 ~ /maintenance/ {print $2; exit}')
+
+    if [[ "${needs_upgrade}" == "true" ]]; then
+        info "Database upgrade tertunda; menjalankan 'occ upgrade'..."
+        occ upgrade
+        post_upgrade
+    elif [[ "${maintenance}" == "true" ]]; then
+        warn "Maintenance mode tertinggal; menjalankan repair sebelum mengaktifkan layanan..."
+        post_upgrade
+    fi
+}
+
 # ─────────────────────────────────────────────────────────────
 # PERINTAH UTAMA
 # ─────────────────────────────────────────────────────────────
 
 cmd_start() {
     info "Menjalankan Nextcloud..."
-    cd "${SCRIPT_DIR}"
-    docker compose -f "${COMPOSE_FILE}" --env-file "${ENV_FILE}" up -d
-    wait_for_app
+    ensure_app_ready
     success "Nextcloud berhasil dijalankan."
     cmd_status
 }
@@ -109,7 +191,8 @@ cmd_stop() {
 cmd_restart() {
     info "Restart Nextcloud..."
     cmd_stop
-    cmd_start
+    ensure_app_ready
+    cmd_status
 }
 
 cmd_status() {
@@ -148,6 +231,7 @@ cmd_logs() {
 
 cmd_update() {
     info "════════ Memeriksa dan menerapkan update Nextcloud ════════"
+    ensure_app_ready
 
     # Dapatkan versi saat ini di dalam container
     local current_version
@@ -272,6 +356,7 @@ except:
 cmd_check_version() {
     echo ""
     echo -e "${CYAN}═══════════ CEK VERSI NEXTCLOUD ═══════════${NC}"
+    ensure_app_ready
 
     # Versi terpasang
     local installed_version
@@ -338,6 +423,8 @@ cmd_upgrade_major() {
         exit 1
     fi
 
+    ensure_app_ready
+
     local current_tag
     current_tag=$(grep -E '^\s+image:\s+nextcloud:' "${COMPOSE_FILE}" | awk -F: '{print $NF}' | tr -d ' ')
     local current_major
@@ -391,6 +478,7 @@ cmd_auto_upgrade() {
     # Deteksi versi terbaru dan upgrade otomatis (patch + major)
     echo ""
     echo -e "${CYAN}═══════════ AUTO-UPGRADE NEXTCLOUD ═══════════${NC}"
+    ensure_app_ready
 
     local installed_version
     installed_version=$(occ status 2>/dev/null | grep 'version:' | awk '{print $3}')
@@ -453,18 +541,18 @@ cmd_auto_upgrade() {
 
 cmd_maintenance_off() {
     info "Mematikan maintenance mode..."
+    ensure_app_ready
     occ maintenance:mode --off
     success "Maintenance mode dinonaktifkan."
 }
 
 cmd_backup_db() {
     local backup_dir="${SCRIPT_DIR}/backups"
+    ensure_app_ready
     mkdir -p "${backup_dir}"
     local fname="nextcloud-db-$(date +%Y%m%d-%H%M%S).sql.gz"
     info "Backup database ke ${backup_dir}/${fname} ..."
-    docker exec "${CONTAINER_DB}" pg_dump \
-        -U "$(grep POSTGRES_USER "${ENV_FILE}" | cut -d= -f2)" \
-        "$(grep POSTGRES_DB "${ENV_FILE}" | cut -d= -f2)" \
+    docker exec "${CONTAINER_DB}" sh -c 'exec pg_dump -U "$POSTGRES_USER" "$POSTGRES_DB"' \
         | gzip > "${backup_dir}/${fname}"
     success "Backup selesai: ${backup_dir}/${fname}"
 }

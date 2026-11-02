@@ -10,3 +10,15 @@
 2026-11-02 10:13:01 [WARN ] [1;33mMajor upgrade tersedia: 34 → 35[0m
 2026-11-02 10:13:02 [OK   ] [0;32mSemua image tersedia di Docker Hub. Memulai upgrade bertahap...[0m
 2026-11-02 10:13:02 [WARN ] [1;33m━━━ Upgrade major: 34 → 35 ━━━[0m
+2026-11-02 10:14:49 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-02 10:14:49 [OK   ] [0;32mContainer siap.[0m
+2026-11-02 10:14:49 [INFO ] [0;36mMenjalankan occ upgrade untuk versi 35...[0m
+2026-11-02 10:14:50 [INFO ] [0;36mMenjalankan repair pasca upgrade...[0m
+2026-11-02 10:43:49 [INFO ] [0;36mMenjalankan Nextcloud...[0m
+2026-11-02 10:43:49 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-02 10:43:50 [OK   ] [0;32mDatabase siap.[0m
+2026-11-02 10:43:50 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-02 10:43:50 [OK   ] [0;32mContainer siap.[0m
+2026-11-02 10:43:52 [OK   ] [0;32mNextcloud berhasil dijalankan.[0m
+2026-11-02 10:43:53 [OK   ] [0;32m✓  Nextcloud berjalan normal (bukan maintenance mode).[0m
+2026-11-02 10:49:32 [OK   ] [0;32m✓  Nextcloud berjalan normal (bukan maintenance mode).[0m
