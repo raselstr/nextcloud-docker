@@ -10,3 +10,13 @@
 #./nextcloud-manage.sh backup-db
 #./nextcloud-manage.sh backup-db
 #./nextcloud-manage.sh auto-upgrade
+
+Rencana Migrasi Storage → /data
+#cd /home/serverbkad/srv/docker/apps/nextcloud-docker
+#sudo bash migrate-to-data.sh
+⚠️ Downtime hanya selama proses rsync (Step 3). Setelah selesai Nextcloud langsung hidup kembali dari /data.
+
+💡 Volume Docker lama tidak dihapus otomatis — bisa dihapus manual beberapa hari setelah dipastikan aman:
+
+#docker volume rm nextcloud-docker_nextcloud_data
+#docker volume rm nextcloud-docker_db_data
