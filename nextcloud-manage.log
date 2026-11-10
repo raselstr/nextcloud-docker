@@ -22,3 +22,1313 @@
 2026-11-02 10:43:52 [OK   ] [0;32mNextcloud berhasil dijalankan.[0m
 2026-11-02 10:43:53 [OK   ] [0;32m✓  Nextcloud berjalan normal (bukan maintenance mode).[0m
 2026-11-02 10:49:32 [OK   ] [0;32m✓  Nextcloud berjalan normal (bukan maintenance mode).[0m
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-03 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-03 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-03 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+2026-11-03 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-03 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-03 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-03 03:00:03 [OK   ] [0;32mContainer siap.[0m
+2026-11-03 03:00:03 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-03 03:00:05 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-03 03:00:05 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.2[0m
+  Major terbaru      : [1;33mv35 (35.0.2)[0m
+
+2026-11-03 03:00:07 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-03 03:00:07 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-03 03:00:07 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-03 03:00:07 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-04 03:00:04 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-04 03:00:04 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-04 03:00:04 [OK   ] [0;32mDatabase siap.[0m
+2026-11-04 03:00:04 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-04 03:00:04 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-04 03:00:04 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-04 03:00:05 [OK   ] [0;32mContainer siap.[0m
+2026-11-04 03:00:05 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-04 03:00:06 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-04 03:00:06 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.2[0m
+  Major terbaru      : [1;33mv35 (35.0.2)[0m
+
+2026-11-04 03:00:08 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-04 03:00:08 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-04 03:00:08 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-04 03:00:08 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-05 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-05 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-05 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+2026-11-05 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-app Running 
+ Container nextcloud-db Running 
+2026-11-05 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-05 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-05 03:00:03 [OK   ] [0;32mContainer siap.[0m
+2026-11-05 03:00:03 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-05 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-05 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.2[0m
+  Major terbaru      : [1;33mv35 (35.0.2)[0m
+
+2026-11-05 03:00:05 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-05 03:00:05 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-05 03:00:05 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-05 03:00:05 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-06 03:00:04 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-06 03:00:04 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-06 03:00:04 [OK   ] [0;32mDatabase siap.[0m
+2026-11-06 03:00:04 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-app Running 
+ Container nextcloud-db Running 
+2026-11-06 03:00:04 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-06 03:00:04 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-06 03:00:05 [OK   ] [0;32mContainer siap.[0m
+2026-11-06 03:00:05 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-06 03:00:07 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-06 03:00:07 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.2[0m
+  Major terbaru      : [1;33mv35 (35.0.2)[0m
+
+2026-11-06 03:00:08 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-06 03:00:08 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-06 03:00:08 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-06 03:00:08 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-07 03:00:02 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-07 03:00:02 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-07 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+2026-11-07 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-app Running 
+ Container nextcloud-db Running 
+2026-11-07 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-07 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-07 03:00:03 [OK   ] [0;32mContainer siap.[0m
+2026-11-07 03:00:03 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-07 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-07 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.2[0m
+  Major terbaru      : [1;33mv35 (35.0.2)[0m
+
+2026-11-07 03:00:05 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-07 03:00:05 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-07 03:00:05 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-07 03:00:05 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-08 03:00:02 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-08 03:00:02 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-08 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+2026-11-08 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-08 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-08 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-08 03:00:02 [OK   ] [0;32mContainer siap.[0m
+2026-11-08 03:00:02 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-08 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-08 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.2[0m
+  Major terbaru      : [1;33mv35 (35.0.2)[0m
+
+2026-11-08 03:00:08 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-08 03:00:08 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-08 03:00:08 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-08 03:00:08 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+ Container nextcloud-db Running 
+2026-11-08 03:30:02 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-08 03:30:02 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-08 03:30:02 [OK   ] [0;32mDatabase siap.[0m
+2026-11-08 03:30:02 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-app Running 
+ Container nextcloud-db Running 
+2026-11-08 03:30:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-08 03:30:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-08 03:30:02 [OK   ] [0;32mContainer siap.[0m
+2026-11-08 03:30:02 [OK   ] [0;32mContainer siap.[0m
+2026-11-08 03:30:03 [INFO ] [0;36mBackup database ke /home/serverbkad/srv/docker/apps/nextcloud-docker/backups/nextcloud-db-20261108-033003.sql.gz ...[0m
+2026-11-08 03:30:03 [INFO ] [0;36mBackup database ke /home/serverbkad/srv/docker/apps/nextcloud-docker/backups/nextcloud-db-20261108-033003.sql.gz ...[0m
+2026-11-08 03:30:14 [OK   ] [0;32mBackup selesai: /home/serverbkad/srv/docker/apps/nextcloud-docker/backups/nextcloud-db-20261108-033003.sql.gz[0m
+2026-11-08 03:30:14 [OK   ] [0;32mBackup selesai: /home/serverbkad/srv/docker/apps/nextcloud-docker/backups/nextcloud-db-20261108-033003.sql.gz[0m
+
+[0;36m═══════════ AUTO-UPGRADE NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-08 03:30:14 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-08 03:30:14 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-08 03:30:14 [OK   ] [0;32mDatabase siap.[0m
+2026-11-08 03:30:14 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-08 03:30:14 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-08 03:30:14 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-08 03:30:15 [OK   ] [0;32mContainer siap.[0m
+2026-11-08 03:30:15 [OK   ] [0;32mContainer siap.[0m
+2026-11-08 03:30:17 [INFO ] [0;36mVersi terpasang: 35.0.2.2 (major 35)[0m
+2026-11-08 03:30:17 [INFO ] [0;36mVersi terpasang: 35.0.2.2 (major 35)[0m
+2026-11-08 03:30:17 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-08 03:30:17 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-08 03:30:17 [INFO ] [0;36mMajor terbaru yang tersedia: v35[0m
+2026-11-08 03:30:17 [INFO ] [0;36mMajor terbaru yang tersedia: v35[0m
+2026-11-08 03:30:17 [INFO ] [0;36mTidak ada major upgrade. Memeriksa patch update...[0m
+2026-11-08 03:30:17 [INFO ] [0;36mTidak ada major upgrade. Memeriksa patch update...[0m
+2026-11-08 03:30:17 [INFO ] [0;36m════════ Memeriksa dan menerapkan update Nextcloud ════════[0m
+2026-11-08 03:30:17 [INFO ] [0;36m════════ Memeriksa dan menerapkan update Nextcloud ════════[0m
+ Container nextcloud-db Running 
+2026-11-08 03:30:17 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-08 03:30:17 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-08 03:30:18 [OK   ] [0;32mDatabase siap.[0m
+2026-11-08 03:30:18 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-08 03:30:18 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-08 03:30:18 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-08 03:30:18 [OK   ] [0;32mContainer siap.[0m
+2026-11-08 03:30:18 [OK   ] [0;32mContainer siap.[0m
+2026-11-08 03:30:20 [INFO ] [0;36mVersi terpasang saat ini: 35.0.2.2[0m
+2026-11-08 03:30:20 [INFO ] [0;36mVersi terpasang saat ini: 35.0.2.2[0m
+2026-11-08 03:30:20 [INFO ] [0;36mImage tag aktif: nextcloud:35-apache[0m
+2026-11-08 03:30:20 [INFO ] [0;36mImage tag aktif: nextcloud:35-apache[0m
+2026-11-08 03:30:20 [INFO ] [0;36mMenarik image terbaru untuk nextcloud:35-apache...[0m
+2026-11-08 03:30:20 [INFO ] [0;36mMenarik image terbaru untuk nextcloud:35-apache...[0m
+ Image nextcloud:35-apache Pulling 
+ 37fb86c2a767 Already exists 0B
+ e1af7931d349 Pulling fs layer 0B
+ 069aa4a0e623 Pulling fs layer 0B
+ c2df53f4c168 Pulling fs layer 0B
+ 16e21cd5a0d7 Pulling fs layer 0B
+ 8f2131b95a45 Pulling fs layer 0B
+ b8483d994bf7 Pulling fs layer 0B
+ 0c62cbaa6d4c Pulling fs layer 0B
+ 16e21cd5a0d7 Waiting 0B
+ dc3e0450a753 Pulling fs layer 0B
+ b8483d994bf7 Waiting 0B
+ 7ee36668eb99 Pulling fs layer 0B
+ 8f2131b95a45 Waiting 0B
+ 0c62cbaa6d4c Waiting 0B
+ dc3e0450a753 Waiting 0B
+ bf0c10efe273 Pulling fs layer 0B
+ 7ee36668eb99 Waiting 0B
+ b5483f93036a Pulling fs layer 0B
+ c6f1d2d868e6 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ 252fb8da49a3 Pulling fs layer 0B
+ b5483f93036a Waiting 0B
+ f59e46f25e5b Pulling fs layer 0B
+ c6f1d2d868e6 Waiting 0B
+ 4f4fb700ef54 Waiting 0B
+ eebd73fb268f Pulling fs layer 0B
+ 252fb8da49a3 Waiting 0B
+ 4523143cf303 Pulling fs layer 0B
+ eebd73fb268f Waiting 0B
+ f59e46f25e5b Waiting 0B
+ 14957a716e20 Pulling fs layer 0B
+ 4523143cf303 Waiting 0B
+ e3ffd4460d2f Pulling fs layer 0B
+ 14957a716e20 Waiting 0B
+ 5a14e2a19b39 Pulling fs layer 0B
+ e3ffd4460d2f Waiting 0B
+ 9abaa7aee570 Pulling fs layer 0B
+ 5a14e2a19b39 Waiting 0B
+ 9abaa7aee570 Waiting 0B
+ c2df53f4c168 Downloading 224B
+ c2df53f4c168 Verifying Checksum 0B
+ c2df53f4c168 Download complete 0B
+ e1af7931d349 Downloading 226B
+ e1af7931d349 Verifying Checksum 0B
+ e1af7931d349 Extracting 226B
+ e1af7931d349 Extracting 226B
+ 069aa4a0e623 Downloading 534.1kB
+ 069aa4a0e623 Downloading 1.61MB
+ e1af7931d349 Pull complete 0B
+ 8f2131b95a45 Downloading 433B
+ 8f2131b95a45 Verifying Checksum 0B
+ 8f2131b95a45 Download complete 0B
+ 16e21cd5a0d7 Downloading 48.55kB
+ 069aa4a0e623 Downloading 4.277MB
+ 16e21cd5a0d7 Downloading 490.9kB
+ 069aa4a0e623 Downloading 5.351MB
+ b8483d994bf7 Downloading 485B
+ b8483d994bf7 Verifying Checksum 0B
+ b8483d994bf7 Download complete 0B
+ 16e21cd5a0d7 Downloading 884.1kB
+ 069aa4a0e623 Downloading 6.417MB
+ 16e21cd5a0d7 Downloading 1.425MB
+ 16e21cd5a0d7 Downloading 1.916MB
+ 069aa4a0e623 Downloading 7.484MB
+ 16e21cd5a0d7 Downloading 2.211MB
+ 069aa4a0e623 Downloading 8.543MB
+ 0c62cbaa6d4c Downloading 163.2kB
+ 16e21cd5a0d7 Downloading 2.654MB
+ 0c62cbaa6d4c Downloading 458.1kB
+ 16e21cd5a0d7 Downloading 3.047MB
+ 069aa4a0e623 Downloading 9.606MB
+ 0c62cbaa6d4c Downloading 753.1kB
+ 16e21cd5a0d7 Downloading 3.587MB
+ 069aa4a0e623 Downloading 10.14MB
+ 0c62cbaa6d4c Downloading 1.048MB
+ 16e21cd5a0d7 Downloading 4.03MB
+ 069aa4a0e623 Downloading 10.68MB
+ 16e21cd5a0d7 Verifying Checksum 0B
+ 16e21cd5a0d7 Download complete 0B
+ 0c62cbaa6d4c Downloading 1.49MB
+ 0c62cbaa6d4c Downloading 2.228MB
+ 069aa4a0e623 Downloading 11.75MB
+ 0c62cbaa6d4c Downloading 2.965MB
+ dc3e0450a753 Downloading 489B
+ dc3e0450a753 Verifying Checksum 0B
+ dc3e0450a753 Download complete 0B
+ 069aa4a0e623 Downloading 12.27MB
+ 0c62cbaa6d4c Downloading 3.85MB
+ 069aa4a0e623 Downloading 12.81MB
+ 0c62cbaa6d4c Downloading 4.587MB
+ 069aa4a0e623 Downloading 13.35MB
+ 7ee36668eb99 Downloading 163.2kB
+ 0c62cbaa6d4c Downloading 5.177MB
+ 069aa4a0e623 Downloading 13.89MB
+ 0c62cbaa6d4c Downloading 5.914MB
+ 7ee36668eb99 Downloading 654.8kB
+ 069aa4a0e623 Downloading 14.43MB
+ 0c62cbaa6d4c Downloading 6.504MB
+ 7ee36668eb99 Downloading 1.146MB
+ 069aa4a0e623 Downloading 14.97MB
+ 0c62cbaa6d4c Downloading 7.241MB
+ 7ee36668eb99 Downloading 1.638MB
+ 0c62cbaa6d4c Downloading 7.978MB
+ 069aa4a0e623 Downloading 15.5MB
+ 7ee36668eb99 Downloading 1.965MB
+ 0c62cbaa6d4c Downloading 8.568MB
+ 069aa4a0e623 Downloading 16.03MB
+ 7ee36668eb99 Downloading 2.457MB
+ 0c62cbaa6d4c Downloading 9.158MB
+ 069aa4a0e623 Downloading 16.57MB
+ 7ee36668eb99 Downloading 2.949MB
+ 069aa4a0e623 Downloading 17.1MB
+ 0c62cbaa6d4c Downloading 9.748MB
+ 7ee36668eb99 Downloading 3.276MB
+ 0c62cbaa6d4c Downloading 10.34MB
+ 069aa4a0e623 Downloading 17.64MB
+ 7ee36668eb99 Downloading 3.768MB
+ 0c62cbaa6d4c Downloading 10.78MB
+ 069aa4a0e623 Downloading 18.17MB
+ 7ee36668eb99 Downloading 4.259MB
+ 0c62cbaa6d4c Downloading 11.22MB
+ 0c62cbaa6d4c Downloading 11.66MB
+ 7ee36668eb99 Downloading 4.751MB
+ 069aa4a0e623 Downloading 18.7MB
+ 0c62cbaa6d4c Downloading 12.11MB
+ 7ee36668eb99 Downloading 5.406MB
+ 069aa4a0e623 Downloading 19.23MB
+ 0c62cbaa6d4c Downloading 12.55MB
+ 7ee36668eb99 Downloading 6.061MB
+ 069aa4a0e623 Downloading 19.77MB
+ 0c62cbaa6d4c Downloading 13.14MB
+ 7ee36668eb99 Downloading 6.553MB
+ 0c62cbaa6d4c Downloading 13.73MB
+ 069aa4a0e623 Downloading 20.3MB
+ 7ee36668eb99 Downloading 7.045MB
+ 0c62cbaa6d4c Downloading 14.17MB
+ 7ee36668eb99 Downloading 7.536MB
+ 0c62cbaa6d4c Verifying Checksum 0B
+ 0c62cbaa6d4c Download complete 0B
+ 069aa4a0e623 Downloading 20.84MB
+ 7ee36668eb99 Downloading 8.028MB
+ 069aa4a0e623 Downloading 21.9MB
+ 7ee36668eb99 Downloading 8.519MB
+ bf0c10efe273 Downloading 2.46kB
+ bf0c10efe273 Verifying Checksum 0B
+ bf0c10efe273 Download complete 0B
+ 069aa4a0e623 Downloading 22.98MB
+ 7ee36668eb99 Downloading 9.011MB
+ 069aa4a0e623 Downloading 24.57MB
+ 7ee36668eb99 Downloading 9.502MB
+ b5483f93036a Downloading 245B
+ b5483f93036a Verifying Checksum 0B
+ b5483f93036a Download complete 0B
+ 069aa4a0e623 Downloading 25.64MB
+ 7ee36668eb99 Downloading 9.994MB
+ 7ee36668eb99 Downloading 10.49MB
+ 069aa4a0e623 Downloading 26.71MB
+ c6f1d2d868e6 Downloading 890B
+ c6f1d2d868e6 Download complete 0B
+ 7ee36668eb99 Downloading 10.98MB
+ 069aa4a0e623 Downloading 27.79MB
+ 7ee36668eb99 Downloading 11.47MB
+ 069aa4a0e623 Downloading 28.86MB
+ 4f4fb700ef54 Downloading 32B
+ 4f4fb700ef54 Verifying Checksum 0B
+ 4f4fb700ef54 Download complete 0B
+ 7ee36668eb99 Downloading 11.96MB
+ 069aa4a0e623 Downloading 29.94MB
+ 7ee36668eb99 Downloading 12.45MB
+ 7ee36668eb99 Downloading 13.11MB
+ 069aa4a0e623 Downloading 30.99MB
+ 252fb8da49a3 Downloading 228.8kB
+ 069aa4a0e623 Downloading 31.52MB
+ 7ee36668eb99 Downloading 13.6MB
+ 069aa4a0e623 Downloading 32.05MB
+ 252fb8da49a3 Downloading 687.5kB
+ 7ee36668eb99 Downloading 14.25MB
+ 069aa4a0e623 Downloading 32.58MB
+ 7ee36668eb99 Downloading 14.74MB
+ 252fb8da49a3 Downloading 1.146MB
+ 069aa4a0e623 Downloading 33.12MB
+ 7ee36668eb99 Downloading 15.24MB
+ 7ee36668eb99 Verifying Checksum 0B
+ 7ee36668eb99 Download complete 0B
+ 252fb8da49a3 Downloading 1.605MB
+ 069aa4a0e623 Downloading 34.19MB
+ 252fb8da49a3 Downloading 2.064MB
+ 252fb8da49a3 Downloading 2.523MB
+ 069aa4a0e623 Downloading 35.26MB
+ f59e46f25e5b Downloading 376.2kB
+ 252fb8da49a3 Downloading 2.981MB
+ 069aa4a0e623 Downloading 36.33MB
+ f59e46f25e5b Downloading 753.1kB
+ 252fb8da49a3 Downloading 3.44MB
+ 069aa4a0e623 Downloading 37.4MB
+ 252fb8da49a3 Downloading 3.899MB
+ f59e46f25e5b Downloading 1.507MB
+ 069aa4a0e623 Downloading 38.47MB
+ 252fb8da49a3 Downloading 4.358MB
+ 069aa4a0e623 Downloading 39.01MB
+ f59e46f25e5b Downloading 2.26MB
+ 252fb8da49a3 Downloading 4.816MB
+ f59e46f25e5b Downloading 2.637MB
+ 069aa4a0e623 Downloading 40.06MB
+ 252fb8da49a3 Downloading 5.275MB
+ f59e46f25e5b Downloading 3.014MB
+ f59e46f25e5b Downloading 3.391MB
+ 252fb8da49a3 Downloading 5.734MB
+ 069aa4a0e623 Downloading 41.12MB
+ 252fb8da49a3 Downloading 6.193MB
+ f59e46f25e5b Downloading 4.145MB
+ 069aa4a0e623 Downloading 42.18MB
+ 252fb8da49a3 Downloading 6.651MB
+ f59e46f25e5b Downloading 4.898MB
+ 069aa4a0e623 Downloading 42.71MB
+ 252fb8da49a3 Downloading 7.11MB
+ 069aa4a0e623 Downloading 43.24MB
+ f59e46f25e5b Downloading 5.652MB
+ 252fb8da49a3 Downloading 7.569MB
+ 069aa4a0e623 Downloading 43.78MB
+ f59e46f25e5b Downloading 6.029MB
+ 252fb8da49a3 Downloading 8.028MB
+ 069aa4a0e623 Downloading 44.31MB
+ f59e46f25e5b Downloading 6.782MB
+ 252fb8da49a3 Downloading 8.486MB
+ 069aa4a0e623 Downloading 44.84MB
+ f59e46f25e5b Downloading 7.536MB
+ 252fb8da49a3 Downloading 8.945MB
+ 069aa4a0e623 Downloading 45.38MB
+ 252fb8da49a3 Downloading 9.404MB
+ f59e46f25e5b Downloading 8.29MB
+ 069aa4a0e623 Downloading 45.92MB
+ 252fb8da49a3 Downloading 9.863MB
+ 069aa4a0e623 Downloading 46.45MB
+ f59e46f25e5b Downloading 9.043MB
+ 252fb8da49a3 Downloading 10.55MB
+ 069aa4a0e623 Downloading 46.99MB
+ 252fb8da49a3 Downloading 11.01MB
+ f59e46f25e5b Downloading 9.797MB
+ 252fb8da49a3 Downloading 11.47MB
+ 069aa4a0e623 Downloading 47.53MB
+ f59e46f25e5b Downloading 10.55MB
+ 252fb8da49a3 Downloading 11.93MB
+ 069aa4a0e623 Downloading 48.06MB
+ 252fb8da49a3 Downloading 12.62MB
+ f59e46f25e5b Downloading 11.3MB
+ 069aa4a0e623 Downloading 48.6MB
+ 252fb8da49a3 Downloading 13.07MB
+ 069aa4a0e623 Downloading 49.14MB
+ f59e46f25e5b Downloading 12.06MB
+ 252fb8da49a3 Downloading 13.53MB
+ 069aa4a0e623 Downloading 49.67MB
+ 252fb8da49a3 Downloading 13.99MB
+ f59e46f25e5b Downloading 12.81MB
+ 252fb8da49a3 Downloading 14.45MB
+ 069aa4a0e623 Downloading 50.21MB
+ f59e46f25e5b Downloading 13.19MB
+ 252fb8da49a3 Downloading 14.91MB
+ 069aa4a0e623 Downloading 50.74MB
+ f59e46f25e5b Downloading 13.94MB
+ 252fb8da49a3 Downloading 15.37MB
+ 069aa4a0e623 Downloading 51.27MB
+ 252fb8da49a3 Downloading 15.83MB
+ f59e46f25e5b Downloading 14.7MB
+ 069aa4a0e623 Downloading 51.8MB
+ 252fb8da49a3 Downloading 16.29MB
+ 069aa4a0e623 Downloading 52.34MB
+ f59e46f25e5b Downloading 15.45MB
+ 252fb8da49a3 Downloading 16.74MB
+ 069aa4a0e623 Downloading 52.88MB
+ 252fb8da49a3 Downloading 17.2MB
+ f59e46f25e5b Downloading 16.2MB
+ 069aa4a0e623 Downloading 53.4MB
+ 252fb8da49a3 Downloading 17.66MB
+ f59e46f25e5b Downloading 16.58MB
+ 252fb8da49a3 Downloading 18.12MB
+ 069aa4a0e623 Downloading 53.94MB
+ f59e46f25e5b Downloading 17.33MB
+ 252fb8da49a3 Downloading 18.58MB
+ 069aa4a0e623 Downloading 54.47MB
+ f59e46f25e5b Downloading 18.09MB
+ 252fb8da49a3 Downloading 19.04MB
+ f59e46f25e5b Downloading 18.84MB
+ 252fb8da49a3 Downloading 19.5MB
+ f59e46f25e5b Downloading 19.97MB
+ 252fb8da49a3 Downloading 19.96MB
+ 069aa4a0e623 Downloading 55.01MB
+ f59e46f25e5b Downloading 20.73MB
+ f59e46f25e5b Downloading 21.48MB
+ 252fb8da49a3 Downloading 20.41MB
+ 069aa4a0e623 Downloading 55.54MB
+ 252fb8da49a3 Downloading 20.87MB
+ f59e46f25e5b Downloading 22.23MB
+ 069aa4a0e623 Downloading 56.07MB
+ 252fb8da49a3 Downloading 21.33MB
+ f59e46f25e5b Downloading 22.99MB
+ 252fb8da49a3 Verifying Checksum 0B
+ 252fb8da49a3 Download complete 0B
+ 069aa4a0e623 Downloading 56.61MB
+ f59e46f25e5b Downloading 24.12MB
+ 069aa4a0e623 Downloading 57.14MB
+ f59e46f25e5b Downloading 24.87MB
+ f59e46f25e5b Downloading 25.62MB
+ 069aa4a0e623 Downloading 58.2MB
+ 069aa4a0e623 Downloading 58.73MB
+ f59e46f25e5b Downloading 26.38MB
+ f59e46f25e5b Downloading 27.13MB
+ 069aa4a0e623 Downloading 59.79MB
+ f59e46f25e5b Downloading 27.88MB
+ eebd73fb268f Downloading 803B
+ eebd73fb268f Verifying Checksum 0B
+ eebd73fb268f Download complete 0B
+ 069aa4a0e623 Downloading 60.85MB
+ f59e46f25e5b Downloading 28.64MB
+ 069aa4a0e623 Downloading 61.91MB
+ f59e46f25e5b Downloading 29.39MB
+ 4523143cf303 Downloading 571B
+ 4523143cf303 Verifying Checksum 0B
+ 4523143cf303 Download complete 0B
+ f59e46f25e5b Downloading 30.15MB
+ 069aa4a0e623 Downloading 62.97MB
+ f59e46f25e5b Downloading 30.9MB
+ 14957a716e20 Downloading 399B
+ 14957a716e20 Verifying Checksum 0B
+ 14957a716e20 Download complete 0B
+ 069aa4a0e623 Downloading 64.04MB
+ f59e46f25e5b Downloading 31.65MB
+ 069aa4a0e623 Downloading 65.1MB
+ f59e46f25e5b Downloading 32.41MB
+ f59e46f25e5b Downloading 33.16MB
+ 069aa4a0e623 Downloading 66.18MB
+ e3ffd4460d2f Downloading 539.4kB
+ f59e46f25e5b Downloading 33.91MB
+ 069aa4a0e623 Downloading 67.24MB
+ e3ffd4460d2f Downloading 1.076MB
+ f59e46f25e5b Downloading 34.67MB
+ 069aa4a0e623 Downloading 67.77MB
+ e3ffd4460d2f Downloading 1.612MB
+ 069aa4a0e623 Downloading 68.3MB
+ f59e46f25e5b Downloading 35.42MB
+ 069aa4a0e623 Downloading 68.84MB
+ e3ffd4460d2f Downloading 2.153MB
+ f59e46f25e5b Downloading 36.18MB
+ 069aa4a0e623 Downloading 69.37MB
+ f59e46f25e5b Downloading 36.93MB
+ f59e46f25e5b Verifying Checksum 0B
+ 069aa4a0e623 Downloading 69.9MB
+ f59e46f25e5b Download complete 0B
+ e3ffd4460d2f Downloading 2.694MB
+ e3ffd4460d2f Downloading 3.234MB
+ 069aa4a0e623 Downloading 70.97MB
+ e3ffd4460d2f Downloading 3.775MB
+ 5a14e2a19b39 Downloading 3.498kB
+ 5a14e2a19b39 Downloading 4.148kB
+ 5a14e2a19b39 Download complete 0B
+ 069aa4a0e623 Downloading 72.03MB
+ e3ffd4460d2f Downloading 4.85MB
+ 069aa4a0e623 Downloading 73.09MB
+ e3ffd4460d2f Downloading 5.387MB
+ 9abaa7aee570 Downloading 2.59kB
+ 9abaa7aee570 Verifying Checksum 0B
+ 9abaa7aee570 Download complete 0B
+ e3ffd4460d2f Downloading 5.928MB
+ 069aa4a0e623 Downloading 74.16MB
+ e3ffd4460d2f Downloading 6.469MB
+ 069aa4a0e623 Downloading 75.23MB
+ e3ffd4460d2f Downloading 7.009MB
+ e3ffd4460d2f Downloading 7.55MB
+ 069aa4a0e623 Downloading 76.3MB
+ e3ffd4460d2f Downloading 8.091MB
+ 069aa4a0e623 Downloading 77.37MB
+ 069aa4a0e623 Downloading 78.44MB
+ e3ffd4460d2f Downloading 9.172MB
+ 069aa4a0e623 Downloading 79.52MB
+ e3ffd4460d2f Downloading 9.702MB
+ 069aa4a0e623 Downloading 80.58MB
+ e3ffd4460d2f Downloading 10.24MB
+ e3ffd4460d2f Downloading 10.78MB
+ 069aa4a0e623 Downloading 81.65MB
+ e3ffd4460d2f Downloading 11.32MB
+ 069aa4a0e623 Downloading 82.71MB
+ e3ffd4460d2f Downloading 11.87MB
+ 069aa4a0e623 Downloading 83.78MB
+ 069aa4a0e623 Downloading 84.85MB
+ e3ffd4460d2f Downloading 12.95MB
+ e3ffd4460d2f Downloading 13.49MB
+ 069aa4a0e623 Downloading 85.92MB
+ e3ffd4460d2f Downloading 14.03MB
+ 069aa4a0e623 Downloading 87MB
+ e3ffd4460d2f Downloading 14.57MB
+ 069aa4a0e623 Downloading 88.07MB
+ e3ffd4460d2f Downloading 15.11MB
+ 069aa4a0e623 Downloading 89.15MB
+ e3ffd4460d2f Downloading 15.65MB
+ 069aa4a0e623 Downloading 90.21MB
+ e3ffd4460d2f Downloading 16.19MB
+ 069aa4a0e623 Downloading 91.29MB
+ e3ffd4460d2f Downloading 16.73MB
+ 069aa4a0e623 Downloading 92.34MB
+ e3ffd4460d2f Downloading 17.27MB
+ 069aa4a0e623 Downloading 93.4MB
+ e3ffd4460d2f Downloading 17.81MB
+ 069aa4a0e623 Downloading 94.46MB
+ e3ffd4460d2f Downloading 18.35MB
+ 069aa4a0e623 Downloading 95.53MB
+ e3ffd4460d2f Downloading 18.89MB
+ 069aa4a0e623 Downloading 96.61MB
+ 069aa4a0e623 Downloading 97.66MB
+ e3ffd4460d2f Downloading 19.98MB
+ 069aa4a0e623 Downloading 98.73MB
+ e3ffd4460d2f Downloading 20.52MB
+ e3ffd4460d2f Downloading 21.06MB
+ 069aa4a0e623 Downloading 99.81MB
+ e3ffd4460d2f Downloading 21.6MB
+ 069aa4a0e623 Downloading 100.9MB
+ e3ffd4460d2f Downloading 22.14MB
+ 069aa4a0e623 Downloading 101.9MB
+ 069aa4a0e623 Downloading 103MB
+ e3ffd4460d2f Downloading 23.22MB
+ 069aa4a0e623 Downloading 104.1MB
+ e3ffd4460d2f Downloading 23.76MB
+ 069aa4a0e623 Downloading 105.2MB
+ e3ffd4460d2f Downloading 24.84MB
+ 069aa4a0e623 Downloading 106.2MB
+ 069aa4a0e623 Downloading 107.3MB
+ e3ffd4460d2f Downloading 25.92MB
+ 069aa4a0e623 Downloading 108.4MB
+ e3ffd4460d2f Downloading 26.99MB
+ 069aa4a0e623 Downloading 109.4MB
+ e3ffd4460d2f Downloading 27.53MB
+ 069aa4a0e623 Downloading 110.5MB
+ e3ffd4460d2f Downloading 28.07MB
+ e3ffd4460d2f Downloading 28.61MB
+ 069aa4a0e623 Downloading 111.6MB
+ e3ffd4460d2f Downloading 29.15MB
+ 069aa4a0e623 Downloading 112.6MB
+ e3ffd4460d2f Downloading 29.69MB
+ 069aa4a0e623 Downloading 113.7MB
+ e3ffd4460d2f Downloading 30.23MB
+ e3ffd4460d2f Downloading 30.77MB
+ 069aa4a0e623 Downloading 114.8MB
+ e3ffd4460d2f Downloading 31.85MB
+ 069aa4a0e623 Downloading 115.8MB
+ e3ffd4460d2f Downloading 32.38MB
+ 069aa4a0e623 Downloading 116.9MB
+ e3ffd4460d2f Downloading 33.46MB
+ 069aa4a0e623 Verifying Checksum 0B
+ 069aa4a0e623 Download complete 0B
+ e3ffd4460d2f Downloading 34.54MB
+ e3ffd4460d2f Downloading 35.08MB
+ e3ffd4460d2f Downloading 38.28MB
+ e3ffd4460d2f Downloading 39.88MB
+ e3ffd4460d2f Downloading 41.49MB
+ e3ffd4460d2f Downloading 43.09MB
+ 069aa4a0e623 Extracting 557.1kB
+ e3ffd4460d2f Downloading 44.7MB
+ 069aa4a0e623 Extracting 2.228MB
+ e3ffd4460d2f Downloading 46.29MB
+ 069aa4a0e623 Extracting 5.014MB
+ e3ffd4460d2f Downloading 47.89MB
+ 069aa4a0e623 Extracting 7.799MB
+ e3ffd4460d2f Downloading 49.48MB
+ 069aa4a0e623 Extracting 10.58MB
+ e3ffd4460d2f Downloading 51.09MB
+ 069aa4a0e623 Extracting 14.48MB
+ e3ffd4460d2f Downloading 52.68MB
+ 069aa4a0e623 Extracting 18.38MB
+ 069aa4a0e623 Extracting 21.17MB
+ e3ffd4460d2f Downloading 54.29MB
+ e3ffd4460d2f Downloading 55.9MB
+ 069aa4a0e623 Extracting 23.4MB
+ e3ffd4460d2f Downloading 57.5MB
+ 069aa4a0e623 Extracting 23.95MB
+ e3ffd4460d2f Downloading 59.08MB
+ 069aa4a0e623 Extracting 24.51MB
+ e3ffd4460d2f Downloading 60.69MB
+ e3ffd4460d2f Downloading 62.29MB
+ 069aa4a0e623 Extracting 25.07MB
+ e3ffd4460d2f Downloading 63.91MB
+ e3ffd4460d2f Downloading 65.49MB
+ 069aa4a0e623 Extracting 25.62MB
+ e3ffd4460d2f Downloading 67.1MB
+ 069aa4a0e623 Extracting 26.18MB
+ e3ffd4460d2f Downloading 68.7MB
+ 069aa4a0e623 Extracting 26.74MB
+ e3ffd4460d2f Downloading 70.29MB
+ e3ffd4460d2f Downloading 71.88MB
+ e3ffd4460d2f Downloading 73.47MB
+ 069aa4a0e623 Extracting 27.3MB
+ e3ffd4460d2f Downloading 75.08MB
+ e3ffd4460d2f Downloading 76.68MB
+ e3ffd4460d2f Downloading 78.28MB
+ 069aa4a0e623 Extracting 27.85MB
+ e3ffd4460d2f Downloading 79.88MB
+ 069aa4a0e623 Extracting 28.41MB
+ e3ffd4460d2f Downloading 81.48MB
+ 069aa4a0e623 Extracting 31.75MB
+ e3ffd4460d2f Downloading 83.09MB
+ 069aa4a0e623 Extracting 33.42MB
+ e3ffd4460d2f Downloading 84.7MB
+ e3ffd4460d2f Downloading 86.3MB
+ 069aa4a0e623 Extracting 35.65MB
+ e3ffd4460d2f Downloading 87.9MB
+ e3ffd4460d2f Downloading 89.51MB
+ 069aa4a0e623 Extracting 36.21MB
+ e3ffd4460d2f Downloading 91.11MB
+ 069aa4a0e623 Extracting 36.77MB
+ e3ffd4460d2f Downloading 92.72MB
+ 069aa4a0e623 Extracting 39.55MB
+ e3ffd4460d2f Downloading 93.79MB
+ 069aa4a0e623 Extracting 41.78MB
+ e3ffd4460d2f Downloading 95.39MB
+ 069aa4a0e623 Extracting 44.56MB
+ 069aa4a0e623 Extracting 47.35MB
+ e3ffd4460d2f Downloading 96.98MB
+ 069aa4a0e623 Extracting 50.69MB
+ e3ffd4460d2f Downloading 98.59MB
+ 069aa4a0e623 Extracting 52.92MB
+ e3ffd4460d2f Downloading 100.2MB
+ 069aa4a0e623 Extracting 55.15MB
+ e3ffd4460d2f Downloading 101.8MB
+ 069aa4a0e623 Extracting 57.93MB
+ e3ffd4460d2f Downloading 103.4MB
+ 069aa4a0e623 Extracting 60.16MB
+ e3ffd4460d2f Downloading 105MB
+ 069aa4a0e623 Extracting 61.83MB
+ e3ffd4460d2f Downloading 106.6MB
+ 069aa4a0e623 Extracting 62.95MB
+ e3ffd4460d2f Downloading 108.2MB
+ 069aa4a0e623 Extracting 64.62MB
+ e3ffd4460d2f Downloading 109.3MB
+ 069aa4a0e623 Extracting 66.29MB
+ e3ffd4460d2f Downloading 110.9MB
+ 069aa4a0e623 Extracting 66.85MB
+ e3ffd4460d2f Downloading 112.5MB
+ 069aa4a0e623 Extracting 70.19MB
+ e3ffd4460d2f Downloading 114.1MB
+ 069aa4a0e623 Extracting 73.53MB
+ e3ffd4460d2f Downloading 115.7MB
+ 069aa4a0e623 Extracting 77.99MB
+ 069aa4a0e623 Extracting 80.22MB
+ e3ffd4460d2f Downloading 117.3MB
+ 069aa4a0e623 Extracting 83.56MB
+ e3ffd4460d2f Downloading 118.9MB
+ 069aa4a0e623 Extracting 87.46MB
+ e3ffd4460d2f Downloading 120.5MB
+ 069aa4a0e623 Extracting 91.36MB
+ e3ffd4460d2f Downloading 122.1MB
+ 069aa4a0e623 Extracting 94.7MB
+ e3ffd4460d2f Downloading 123.8MB
+ 069aa4a0e623 Extracting 98.6MB
+ 069aa4a0e623 Extracting 103.1MB
+ e3ffd4460d2f Downloading 125.4MB
+ 069aa4a0e623 Extracting 107MB
+ e3ffd4460d2f Downloading 127MB
+ 069aa4a0e623 Extracting 109.7MB
+ e3ffd4460d2f Downloading 128.6MB
+ 069aa4a0e623 Extracting 112MB
+ e3ffd4460d2f Downloading 130.2MB
+ e3ffd4460d2f Downloading 131.8MB
+ 069aa4a0e623 Extracting 112.5MB
+ e3ffd4460d2f Downloading 133.4MB
+ 069aa4a0e623 Extracting 113.1MB
+ e3ffd4460d2f Downloading 135MB
+ 069aa4a0e623 Extracting 114.2MB
+ e3ffd4460d2f Downloading 136.6MB
+ e3ffd4460d2f Downloading 138.2MB
+ 069aa4a0e623 Extracting 114.8MB
+ e3ffd4460d2f Downloading 139.8MB
+ 069aa4a0e623 Extracting 115.9MB
+ e3ffd4460d2f Downloading 141.4MB
+ e3ffd4460d2f Downloading 143MB
+ e3ffd4460d2f Downloading 144.6MB
+ e3ffd4460d2f Downloading 146.2MB
+ 069aa4a0e623 Extracting 117MB
+ e3ffd4460d2f Downloading 147.8MB
+ e3ffd4460d2f Downloading 149.4MB
+ 069aa4a0e623 Extracting 117.8MB
+ e3ffd4460d2f Downloading 151MB
+ e3ffd4460d2f Downloading 152.6MB
+ e3ffd4460d2f Downloading 154.2MB
+ 069aa4a0e623 Pull complete 0B
+ c2df53f4c168 Extracting 224B
+ c2df53f4c168 Extracting 224B
+ e3ffd4460d2f Downloading 155.8MB
+ e3ffd4460d2f Downloading 156.9MB
+ c2df53f4c168 Pull complete 0B
+ e3ffd4460d2f Downloading 158.5MB
+ 16e21cd5a0d7 Extracting 65.54kB
+ e3ffd4460d2f Downloading 160.1MB
+ 16e21cd5a0d7 Extracting 196.6kB
+ e3ffd4460d2f Downloading 161.7MB
+ 16e21cd5a0d7 Extracting 327.7kB
+ e3ffd4460d2f Downloading 162.7MB
+ 16e21cd5a0d7 Extracting 1.704MB
+ 16e21cd5a0d7 Extracting 3.539MB
+ e3ffd4460d2f Downloading 164.3MB
+ e3ffd4460d2f Downloading 165.9MB
+ 16e21cd5a0d7 Extracting 4.244MB
+ e3ffd4460d2f Downloading 167.5MB
+ 16e21cd5a0d7 Extracting 4.244MB
+ e3ffd4460d2f Downloading 168.6MB
+ 16e21cd5a0d7 Pull complete 0B
+ e3ffd4460d2f Downloading 170.2MB
+ 8f2131b95a45 Extracting 433B
+ 8f2131b95a45 Extracting 433B
+ e3ffd4460d2f Downloading 171.8MB
+ e3ffd4460d2f Downloading 173.4MB
+ 8f2131b95a45 Pull complete 0B
+ b8483d994bf7 Extracting 485B
+ b8483d994bf7 Extracting 485B
+ e3ffd4460d2f Downloading 175MB
+ e3ffd4460d2f Downloading 176.6MB
+ b8483d994bf7 Pull complete 0B
+ e3ffd4460d2f Downloading 178.2MB
+ 0c62cbaa6d4c Extracting 163.8kB
+ e3ffd4460d2f Downloading 179.3MB
+ 0c62cbaa6d4c Extracting 983kB
+ e3ffd4460d2f Downloading 180.9MB
+ 0c62cbaa6d4c Extracting 8.356MB
+ 0c62cbaa6d4c Extracting 14.72MB
+ e3ffd4460d2f Downloading 182.5MB
+ e3ffd4460d2f Downloading 184.1MB
+ 0c62cbaa6d4c Pull complete 0B
+ dc3e0450a753 Extracting 489B
+ dc3e0450a753 Extracting 489B
+ e3ffd4460d2f Downloading 185.7MB
+ e3ffd4460d2f Downloading 187.3MB
+ dc3e0450a753 Pull complete 0B
+ e3ffd4460d2f Downloading 188.9MB
+ 7ee36668eb99 Extracting 163.8kB
+ e3ffd4460d2f Downloading 190MB
+ 7ee36668eb99 Extracting 819.2kB
+ e3ffd4460d2f Downloading 191.6MB
+ 7ee36668eb99 Extracting 4.096MB
+ 7ee36668eb99 Extracting 4.424MB
+ e3ffd4460d2f Downloading 193.2MB
+ 7ee36668eb99 Extracting 6.39MB
+ e3ffd4460d2f Downloading 194.8MB
+ 7ee36668eb99 Extracting 8.847MB
+ e3ffd4460d2f Downloading 196.4MB
+ 7ee36668eb99 Extracting 10.65MB
+ e3ffd4460d2f Downloading 198MB
+ 7ee36668eb99 Extracting 11.3MB
+ e3ffd4460d2f Downloading 199.5MB
+ 7ee36668eb99 Extracting 12.78MB
+ 7ee36668eb99 Extracting 13.43MB
+ e3ffd4460d2f Downloading 201.1MB
+ e3ffd4460d2f Downloading 202.7MB
+ 7ee36668eb99 Extracting 13.93MB
+ e3ffd4460d2f Downloading 203.8MB
+ 7ee36668eb99 Extracting 14.25MB
+ e3ffd4460d2f Downloading 205.4MB
+ 7ee36668eb99 Extracting 14.91MB
+ 7ee36668eb99 Extracting 15.25MB
+ e3ffd4460d2f Downloading 207MB
+ e3ffd4460d2f Downloading 208.6MB
+ 7ee36668eb99 Pull complete 0B
+ e3ffd4460d2f Downloading 210.2MB
+ bf0c10efe273 Extracting 2.46kB
+ bf0c10efe273 Extracting 2.46kB
+ e3ffd4460d2f Downloading 211.8MB
+ e3ffd4460d2f Downloading 213.4MB
+ bf0c10efe273 Pull complete 0B
+ b5483f93036a Extracting 245B
+ b5483f93036a Extracting 245B
+ e3ffd4460d2f Downloading 215MB
+ b5483f93036a Pull complete 0B
+ e3ffd4460d2f Downloading 216.6MB
+ c6f1d2d868e6 Extracting 890B
+ c6f1d2d868e6 Extracting 890B
+ e3ffd4460d2f Downloading 218.2MB
+ e3ffd4460d2f Downloading 219.8MB
+ c6f1d2d868e6 Pull complete 0B
+ 4f4fb700ef54 Extracting 32B
+ 4f4fb700ef54 Extracting 32B
+ e3ffd4460d2f Downloading 221.4MB
+ e3ffd4460d2f Downloading 223MB
+ 4f4fb700ef54 Pull complete 0B
+ e3ffd4460d2f Downloading 224.6MB
+ e3ffd4460d2f Downloading 226.2MB
+ 252fb8da49a3 Extracting 229.4kB
+ e3ffd4460d2f Downloading 227.8MB
+ 252fb8da49a3 Extracting 1.835MB
+ e3ffd4460d2f Downloading 229.4MB
+ 252fb8da49a3 Extracting 2.753MB
+ 252fb8da49a3 Extracting 3.899MB
+ e3ffd4460d2f Downloading 231MB
+ 252fb8da49a3 Extracting 6.423MB
+ e3ffd4460d2f Downloading 232.6MB
+ 252fb8da49a3 Extracting 9.175MB
+ e3ffd4460d2f Downloading 234.2MB
+ 252fb8da49a3 Extracting 12.16MB
+ 252fb8da49a3 Extracting 15.14MB
+ e3ffd4460d2f Downloading 235.8MB
+ 252fb8da49a3 Extracting 17.89MB
+ e3ffd4460d2f Downloading 237.4MB
+ e3ffd4460d2f Downloading 239MB
+ 252fb8da49a3 Extracting 18.58MB
+ e3ffd4460d2f Downloading 240.6MB
+ 252fb8da49a3 Extracting 19.04MB
+ e3ffd4460d2f Downloading 241.7MB
+ e3ffd4460d2f Downloading 243.3MB
+ 252fb8da49a3 Extracting 21.5MB
+ e3ffd4460d2f Downloading 244.9MB
+ e3ffd4460d2f Downloading 246.5MB
+ 252fb8da49a3 Pull complete 0B
+ e3ffd4460d2f Downloading 247.6MB
+ f59e46f25e5b Extracting 393.2kB
+ e3ffd4460d2f Downloading 249.2MB
+ e3ffd4460d2f Downloading 250.8MB
+ f59e46f25e5b Extracting 3.539MB
+ e3ffd4460d2f Downloading 252.4MB
+ f59e46f25e5b Extracting 3.932MB
+ e3ffd4460d2f Downloading 254MB
+ f59e46f25e5b Extracting 5.505MB
+ f59e46f25e5b Extracting 6.685MB
+ e3ffd4460d2f Downloading 255.6MB
+ e3ffd4460d2f Downloading 257.2MB
+ f59e46f25e5b Extracting 7.471MB
+ e3ffd4460d2f Downloading 258.8MB
+ f59e46f25e5b Extracting 8.258MB
+ e3ffd4460d2f Downloading 260.4MB
+ f59e46f25e5b Extracting 10.22MB
+ e3ffd4460d2f Downloading 262MB
+ e3ffd4460d2f Downloading 263.1MB
+ f59e46f25e5b Extracting 11.4MB
+ f59e46f25e5b Extracting 12.19MB
+ f59e46f25e5b Extracting 14.16MB
+ e3ffd4460d2f Downloading 264.1MB
+ e3ffd4460d2f Downloading 266.3MB
+ f59e46f25e5b Extracting 17.69MB
+ f59e46f25e5b Extracting 20.45MB
+ e3ffd4460d2f Downloading 267.9MB
+ f59e46f25e5b Extracting 23.99MB
+ e3ffd4460d2f Downloading 270MB
+ f59e46f25e5b Extracting 26.35MB
+ e3ffd4460d2f Downloading 271.6MB
+ f59e46f25e5b Extracting 28.7MB
+ e3ffd4460d2f Downloading 273.2MB
+ f59e46f25e5b Extracting 31.85MB
+ e3ffd4460d2f Downloading 274.8MB
+ f59e46f25e5b Extracting 33.42MB
+ e3ffd4460d2f Verifying Checksum 0B
+ e3ffd4460d2f Download complete 0B
+ f59e46f25e5b Extracting 35.78MB
+ f59e46f25e5b Extracting 36.18MB
+ f59e46f25e5b Extracting 36.57MB
+ f59e46f25e5b Extracting 36.95MB
+ f59e46f25e5b Extracting 36.95MB
+ f59e46f25e5b Pull complete 0B
+ eebd73fb268f Extracting 803B
+ eebd73fb268f Extracting 803B
+ eebd73fb268f Pull complete 0B
+ 4523143cf303 Extracting 571B
+ 4523143cf303 Extracting 571B
+ 4523143cf303 Pull complete 0B
+ 14957a716e20 Extracting 399B
+ 14957a716e20 Extracting 399B
+ 14957a716e20 Pull complete 0B
+ e3ffd4460d2f Extracting 557.1kB
+ e3ffd4460d2f Extracting 1.114MB
+ e3ffd4460d2f Extracting 1.671MB
+ e3ffd4460d2f Extracting 2.228MB
+ e3ffd4460d2f Extracting 2.785MB
+ e3ffd4460d2f Extracting 3.899MB
+ e3ffd4460d2f Extracting 5.014MB
+ e3ffd4460d2f Extracting 5.571MB
+ e3ffd4460d2f Extracting 6.685MB
+ e3ffd4460d2f Extracting 7.242MB
+ e3ffd4460d2f Extracting 7.799MB
+ e3ffd4460d2f Extracting 8.356MB
+ e3ffd4460d2f Extracting 10.03MB
+ e3ffd4460d2f Extracting 10.58MB
+ e3ffd4460d2f Extracting 12.26MB
+ e3ffd4460d2f Extracting 13.93MB
+ e3ffd4460d2f Extracting 14.48MB
+ e3ffd4460d2f Extracting 16.71MB
+ e3ffd4460d2f Extracting 17.27MB
+ e3ffd4460d2f Extracting 18.94MB
+ e3ffd4460d2f Extracting 20.61MB
+ e3ffd4460d2f Extracting 21.17MB
+ e3ffd4460d2f Extracting 21.73MB
+ e3ffd4460d2f Extracting 22.28MB
+ e3ffd4460d2f Extracting 22.84MB
+ e3ffd4460d2f Extracting 23.4MB
+ e3ffd4460d2f Extracting 23.95MB
+ e3ffd4460d2f Extracting 25.07MB
+ e3ffd4460d2f Extracting 26.18MB
+ e3ffd4460d2f Extracting 27.85MB
+ e3ffd4460d2f Extracting 29.52MB
+ e3ffd4460d2f Extracting 31.2MB
+ e3ffd4460d2f Extracting 32.87MB
+ e3ffd4460d2f Extracting 34.54MB
+ e3ffd4460d2f Extracting 35.65MB
+ e3ffd4460d2f Extracting 37.32MB
+ e3ffd4460d2f Extracting 37.88MB
+ e3ffd4460d2f Extracting 38.99MB
+ e3ffd4460d2f Extracting 42.89MB
+ e3ffd4460d2f Extracting 43.45MB
+ e3ffd4460d2f Extracting 45.12MB
+ e3ffd4460d2f Extracting 45.68MB
+ e3ffd4460d2f Extracting 47.35MB
+ e3ffd4460d2f Extracting 47.91MB
+ e3ffd4460d2f Extracting 48.46MB
+ e3ffd4460d2f Extracting 50.14MB
+ e3ffd4460d2f Extracting 50.69MB
+ e3ffd4460d2f Extracting 51.25MB
+ e3ffd4460d2f Extracting 53.48MB
+ e3ffd4460d2f Extracting 55.71MB
+ e3ffd4460d2f Extracting 57.93MB
+ e3ffd4460d2f Extracting 60.72MB
+ e3ffd4460d2f Extracting 62.39MB
+ e3ffd4460d2f Extracting 64.06MB
+ e3ffd4460d2f Extracting 65.73MB
+ e3ffd4460d2f Extracting 67.4MB
+ e3ffd4460d2f Extracting 69.07MB
+ e3ffd4460d2f Extracting 70.75MB
+ e3ffd4460d2f Extracting 72.97MB
+ e3ffd4460d2f Extracting 74.65MB
+ e3ffd4460d2f Extracting 76.32MB
+ e3ffd4460d2f Extracting 76.87MB
+ e3ffd4460d2f Extracting 78.54MB
+ e3ffd4460d2f Extracting 79.66MB
+ e3ffd4460d2f Extracting 81.33MB
+ e3ffd4460d2f Extracting 81.89MB
+ e3ffd4460d2f Extracting 82.44MB
+ e3ffd4460d2f Extracting 84.12MB
+ e3ffd4460d2f Extracting 84.67MB
+ e3ffd4460d2f Extracting 85.79MB
+ e3ffd4460d2f Extracting 86.34MB
+ e3ffd4460d2f Extracting 87.46MB
+ e3ffd4460d2f Extracting 88.01MB
+ e3ffd4460d2f Extracting 89.69MB
+ e3ffd4460d2f Extracting 91.36MB
+ e3ffd4460d2f Extracting 92.47MB
+ e3ffd4460d2f Extracting 93.03MB
+ e3ffd4460d2f Extracting 93.59MB
+ e3ffd4460d2f Extracting 94.14MB
+ e3ffd4460d2f Extracting 95.26MB
+ e3ffd4460d2f Extracting 96.37MB
+ e3ffd4460d2f Extracting 96.93MB
+ e3ffd4460d2f Extracting 98.6MB
+ e3ffd4460d2f Extracting 100.8MB
+ e3ffd4460d2f Extracting 103.1MB
+ e3ffd4460d2f Extracting 104.2MB
+ e3ffd4460d2f Extracting 105.8MB
+ e3ffd4460d2f Extracting 106.4MB
+ e3ffd4460d2f Extracting 107MB
+ e3ffd4460d2f Extracting 107.5MB
+ e3ffd4460d2f Extracting 108.1MB
+ e3ffd4460d2f Extracting 109.2MB
+ e3ffd4460d2f Extracting 109.7MB
+ e3ffd4460d2f Extracting 110.3MB
+ e3ffd4460d2f Extracting 117MB
+ e3ffd4460d2f Extracting 123.1MB
+ e3ffd4460d2f Extracting 128.1MB
+ e3ffd4460d2f Extracting 128.7MB
+ e3ffd4460d2f Extracting 129.8MB
+ e3ffd4460d2f Extracting 130.9MB
+ e3ffd4460d2f Extracting 132MB
+ e3ffd4460d2f Extracting 134.3MB
+ e3ffd4460d2f Extracting 136.5MB
+ e3ffd4460d2f Extracting 137MB
+ e3ffd4460d2f Extracting 137.6MB
+ e3ffd4460d2f Extracting 142MB
+ e3ffd4460d2f Extracting 147.1MB
+ e3ffd4460d2f Extracting 152.1MB
+ e3ffd4460d2f Extracting 156.5MB
+ e3ffd4460d2f Extracting 159.9MB
+ e3ffd4460d2f Extracting 160.4MB
+ e3ffd4460d2f Extracting 161MB
+ e3ffd4460d2f Extracting 164.3MB
+ e3ffd4460d2f Extracting 168.2MB
+ e3ffd4460d2f Extracting 173.2MB
+ e3ffd4460d2f Extracting 177.7MB
+ e3ffd4460d2f Extracting 182.7MB
+ e3ffd4460d2f Extracting 187.7MB
+ e3ffd4460d2f Extracting 189.4MB
+ e3ffd4460d2f Extracting 191.1MB
+ e3ffd4460d2f Extracting 197.2MB
+ e3ffd4460d2f Extracting 205MB
+ e3ffd4460d2f Extracting 212.2MB
+ e3ffd4460d2f Extracting 220MB
+ e3ffd4460d2f Extracting 227.3MB
+ e3ffd4460d2f Extracting 231.7MB
+ e3ffd4460d2f Extracting 238.4MB
+ e3ffd4460d2f Extracting 246.8MB
+ e3ffd4460d2f Extracting 254.6MB
+ e3ffd4460d2f Extracting 256.2MB
+ e3ffd4460d2f Extracting 257.4MB
+ e3ffd4460d2f Extracting 258.5MB
+ e3ffd4460d2f Extracting 259.6MB
+ e3ffd4460d2f Extracting 261.8MB
+ e3ffd4460d2f Extracting 263.5MB
+ e3ffd4460d2f Extracting 265.2MB
+ e3ffd4460d2f Extracting 266.8MB
+ e3ffd4460d2f Extracting 268.5MB
+ e3ffd4460d2f Extracting 269.6MB
+ e3ffd4460d2f Extracting 270.7MB
+ e3ffd4460d2f Extracting 271.8MB
+ e3ffd4460d2f Extracting 273MB
+ e3ffd4460d2f Extracting 274.1MB
+ e3ffd4460d2f Extracting 274.6MB
+ e3ffd4460d2f Extracting 275.2MB
+ e3ffd4460d2f Extracting 275.7MB
+ e3ffd4460d2f Extracting 276.2MB
+ e3ffd4460d2f Pull complete 0B
+ 5a14e2a19b39 Extracting 4.148kB
+ 5a14e2a19b39 Extracting 4.148kB
+ 5a14e2a19b39 Pull complete 0B
+ 9abaa7aee570 Extracting 2.59kB
+ 9abaa7aee570 Extracting 2.59kB
+ 9abaa7aee570 Pull complete 0B
+ Image nextcloud:35-apache Pulled 
+2026-11-08 03:31:42 [WARN ] [1;33mUpdate ditemukan! Menerapkan upgrade...[0m
+2026-11-08 03:31:42 [WARN ] [1;33mUpdate ditemukan! Menerapkan upgrade...[0m
+2026-11-08 03:31:42 [INFO ] [0;36m  Image lama : sha256:c96e92b460b0b...[0m
+2026-11-08 03:31:42 [INFO ] [0;36m  Image lama : sha256:c96e92b460b0b...[0m
+2026-11-08 03:31:42 [INFO ] [0;36m  Image baru : sha256:b5cf942dc4923...[0m
+2026-11-08 03:31:42 [INFO ] [0;36m  Image baru : sha256:b5cf942dc4923...[0m
+2026-11-08 03:31:42 [INFO ] [0;36mMerestart container dengan image terbaru...[0m
+2026-11-08 03:31:42 [INFO ] [0;36mMerestart container dengan image terbaru...[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Recreate 
+ Container nextcloud-app Recreated 
+ Container nextcloud-app Starting 
+ Container nextcloud-app Started 
+2026-11-08 03:32:15 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-08 03:32:15 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-08 03:32:16 [OK   ] [0;32mContainer siap.[0m
+2026-11-08 03:32:16 [OK   ] [0;32mContainer siap.[0m
+2026-11-08 03:32:17 [INFO ] [0;36mMenjalankan repair pasca upgrade...[0m
+2026-11-08 03:32:17 [INFO ] [0;36mMenjalankan repair pasca upgrade...[0m
+ - Repair MySQL collation
+     - Not a mysql database -> nothing to do
+ - Clean tags and favorites
+     - 0 tags of deleted users have been removed.
+     - 0 tags for delete files have been removed.
+     - 0 tag entries for deleted tags have been removed.
+     - 0 tags with no entries have been removed.
+ - Repair invalid shares
+ - Move .step file of updater to backup location
+ - Add move avatar background job
+     - Repair step already executed
+ - Add preview cleanup background jobs
+ - Migrate oc_properties table to nextcloud schema
+     - oc_properties table does not exist.
+ - Migrate oauth2_clients table to nextcloud schema
+     - Update the oauth2_access_tokens table schema.
+     - Update the oauth2_clients table schema.
+     - Delete clients (and their related access tokens) with the redirect_uri starting with oc:// or ending with *
+ - Repair language codes
+ - Add log rotate job
+ - Clear frontend caches
+     - Image cache cleared
+     - JS cache cleared
+ - Clear every generated avatar
+ - Add preview background cleanup job
+ - Queue a one-time job to cleanup old backups of the updater
+ - Cleanup invalid photocache files for carddav
+ - Add background job to cleanup login flow v2 tokens
+ - Remove potentially over exposing share links
+     - No need to remove link shares.
+ - Clear access cache of projects
+ - Reset generated avatar flag
+ - Keep legacy encryption enabled
+ - Check encryption key format
+ - Remove old dashboard app config data
+ - Add job to cleanup the bruteforce entries
+ - Queue a one-time job to check for user uploaded certificates
+ - Repair DAV shares
+ - Add background job to set the lookup server share state for users
+ - Add token cleanup job
+ - Clean up abandoned apps
+ - Add possibly missing system config
+ - Add AI tasks cleanup jobs
+ - Queue a job to generate metadata
+ - Cache logo dimension to fix size in emails on Outlook
+     - Theming is not used to provide a logo
+ - Remove legacy ".ocdata" file
+ - Add cleanup-deleted-users background job
+ - Add cleanup login tokens background job
+ - Validate account properties and store phone numbers in a known format for search
+     - Queued background to validate account properties.
+ - Queue a job to move the preview
+ - Migrate config keys
+ - Cleanup completed background jobs
+ - Add code integrity check background job
+ - AppAPI Daemons configuration GPU params update
+     - Daemons configuration GPU params updated: 0
+ - Upgrading Circles App
+ - Sync groups with their circles
+ - Fix component of birthday calendars
+     - 2 birthday calendars updated.
+ - Regenerating birthday calendars to use new icons and fix old birthday events without year
+     - Repair step already executed
+ - Fix broken values of calendar objects
+    0 [>---------------------------]
+ - Registering building of calendar search index as background job
+     - Repair step already executed
+ - Register building of social profile search index as background job
+     - Repair step already executed
+ - Disable system address book
+     - Skipping repair step system address book has less than the threshold 5000 of contacts no need to disable
+ - Registering background jobs to update cache for webcal calendars
+     - Added 0 background jobs to update webcal calendars
+ - Registering building of calendar reminder index as background job
+     - Repair step already executed
+ - Register a background job to update rooms and resources
+ - Queue jobs to clean up orphan event and contact data
+ - Remove activity entries of private events
+ - Clean up old calendar subscriptions from deleted users that were not cleaned-up
+
+    0 [->--------------------------]     - 0 calendar subscriptions without an user have been cleaned up
+ - Write default encryption module configuration to the database
+ - Fix the share type of guest shares when migrating from ownCloud
+ - Copy the share password into the dedicated column
+ - Set existing shares as accepted
+ - Restore default tags that are missing
+     - Looking up default tags
+     - 0 accounts to check found
+    0 [--->------------------------]
+ - Add a generated message-id to all Mail messages that have none
+     - Looking up messages without a message-id
+ - Purify and migrate collected mail addresses
+    0 [----->----------------------]
+ - Insert background jobs for all accounts
+    0 [------->--------------------]
+ - Make Mail itinerary extractor executable
+ - Create or update provisioned Mail accounts
+     - 0 accounts provisioned
+ - Repair Broken Threads for all mail accounts
+     - Repaired threads, 0 messages updated
+ - Queue a job to delete duplicated cached messages
+ - Clean up meta table
+ - Show a hint about the new editor to existing users
+ - Update OAuth token expiration times
+ - init metadata
+ - Switches from default updater server to the customer one if a valid subscription is available
+     - Repair step already executed
+ - Migrate some config values to lazy loading
+ - Send an admin notification if monthly report is disabled
+ - Force-reset all Text document sessions
+ - Initialize migration of background images from dashboard to theming app
+ - Add background job to check for backup codes
+ - Populating added database structures for workflows
+2026-11-08 03:32:21 [INFO ] [0;36mMenjalankan pemeliharaan database...[0m
+2026-11-08 03:32:21 [INFO ] [0;36mMenjalankan pemeliharaan database...[0m
+Adding additional oc_notifications_object_ts index to the oc_notifications table, this can take some time...
+oc_notifications table updated successfully.
+Done.
+Done.
+2026-11-08 03:32:24 [OK   ] [0;32mPemeliharaan database selesai.[0m
+2026-11-08 03:32:24 [OK   ] [0;32mPemeliharaan database selesai.[0m
+Maintenance mode already disabled
+2026-11-08 03:32:25 [OK   ] [0;32mRepair pasca upgrade selesai.[0m
+2026-11-08 03:32:25 [OK   ] [0;32mRepair pasca upgrade selesai.[0m
+2026-11-08 03:32:25 [OK   ] [0;32m════════ Upgrade selesai: 35.0.2.2 → 35.0.2.2 ════════[0m
+2026-11-08 03:32:25 [OK   ] [0;32m════════ Upgrade selesai: 35.0.2.2 → 35.0.2.2 ════════[0m
+2026-11-08 03:32:25 [INFO ] Upgrade log: 35.0.2.2 -> 35.0.2.2 pada 2026-11-08 03:32:25
+2026-11-08 03:32:25 [INFO ] Upgrade log: 35.0.2.2 -> 35.0.2.2 pada 2026-11-08 03:32:25
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-09 03:00:04 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-09 03:00:04 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-09 03:00:04 [OK   ] [0;32mDatabase siap.[0m
+2026-11-09 03:00:04 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-09 03:00:05 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-09 03:00:05 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-09 03:00:05 [OK   ] [0;32mContainer siap.[0m
+2026-11-09 03:00:05 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-09 03:00:07 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-09 03:00:07 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.2[0m
+  Major terbaru      : [1;33mv35 (35.0.2)[0m
+
+2026-11-09 03:00:11 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-09 03:00:11 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-09 03:00:11 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-09 03:00:11 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-10 03:00:04 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-10 03:00:04 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-10 03:00:05 [OK   ] [0;32mDatabase siap.[0m
+2026-11-10 03:00:05 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-app Running 
+ Container nextcloud-db Running 
+2026-11-10 03:00:05 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-10 03:00:05 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-10 03:00:06 [OK   ] [0;32mContainer siap.[0m
+2026-11-10 03:00:06 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-10 03:00:07 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-10 03:00:07 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.2[0m
+  Major terbaru      : [1;33mv35 (35.0.2)[0m
+
+2026-11-10 03:00:09 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-10 03:00:09 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-10 03:00:09 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-10 03:00:09 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
