@@ -1332,3 +1332,945 @@ Maintenance mode already disabled
 2026-11-10 03:00:09 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
 2026-11-10 03:00:09 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
 
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-11 03:00:02 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-11 03:00:02 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-11 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+2026-11-11 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-11 03:00:03 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-11 03:00:03 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-11 03:00:04 [OK   ] [0;32mContainer siap.[0m
+2026-11-11 03:00:04 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-11 03:00:06 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-11 03:00:06 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.2[0m
+  Major terbaru      : [1;33mv35 (35.0.2)[0m
+
+2026-11-11 03:00:07 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-11 03:00:07 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-11 03:00:07 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-11 03:00:07 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-12 03:00:02 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-12 03:00:02 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-12 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+2026-11-12 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-app Running 
+ Container nextcloud-db Running 
+2026-11-12 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-12 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-12 03:00:02 [OK   ] [0;32mContainer siap.[0m
+2026-11-12 03:00:02 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-12 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-12 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.2[0m
+  Major terbaru      : [1;33mv35 (35.0.2)[0m
+
+2026-11-12 03:00:07 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-12 03:00:07 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-12 03:00:07 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-12 03:00:07 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-13 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-13 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-13 03:00:01 [OK   ] [0;32mDatabase siap.[0m
+2026-11-13 03:00:01 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-13 03:00:01 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-13 03:00:01 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-13 03:00:02 [OK   ] [0;32mContainer siap.[0m
+2026-11-13 03:00:02 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-13 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-13 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.3[0m
+  Major terbaru      : [1;33mv35 (35.0.3)[0m
+
+2026-11-13 03:00:05 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-13 03:00:05 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-13 03:00:05 [WARN ] [1;33m⬆  Ada patch update: 35.0.2.2 → 35.0.3[0m
+2026-11-13 03:00:05 [WARN ] [1;33m⬆  Ada patch update: 35.0.2.2 → 35.0.3[0m
+2026-11-13 03:00:05 [WARN ] [1;33m   Jalankan: /home/serverbkad/srv/docker/apps/nextcloud-docker/nextcloud-manage.sh update[0m
+2026-11-13 03:00:05 [WARN ] [1;33m   Jalankan: /home/serverbkad/srv/docker/apps/nextcloud-docker/nextcloud-manage.sh update[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-14 03:00:03 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-14 03:00:03 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-14 03:00:03 [OK   ] [0;32mDatabase siap.[0m
+2026-11-14 03:00:03 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-app Running 
+ Container nextcloud-db Running 
+2026-11-14 03:00:03 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-14 03:00:03 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-14 03:00:05 [OK   ] [0;32mContainer siap.[0m
+2026-11-14 03:00:05 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-14 03:00:06 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-14 03:00:06 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.3[0m
+  Major terbaru      : [1;33mv35 (35.0.3)[0m
+
+2026-11-14 03:00:07 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-14 03:00:07 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-14 03:00:07 [WARN ] [1;33m⬆  Ada patch update: 35.0.2.2 → 35.0.3[0m
+2026-11-14 03:00:07 [WARN ] [1;33m⬆  Ada patch update: 35.0.2.2 → 35.0.3[0m
+2026-11-14 03:00:07 [WARN ] [1;33m   Jalankan: /home/serverbkad/srv/docker/apps/nextcloud-docker/nextcloud-manage.sh update[0m
+2026-11-14 03:00:07 [WARN ] [1;33m   Jalankan: /home/serverbkad/srv/docker/apps/nextcloud-docker/nextcloud-manage.sh update[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-15 03:00:05 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-15 03:00:05 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-15 03:00:06 [OK   ] [0;32mDatabase siap.[0m
+2026-11-15 03:00:06 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-15 03:00:06 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-15 03:00:06 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-15 03:00:06 [OK   ] [0;32mContainer siap.[0m
+2026-11-15 03:00:06 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.2.2[0m (major 35)
+2026-11-15 03:00:08 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-15 03:00:08 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.3[0m
+  Major terbaru      : [1;33mv35 (35.0.3)[0m
+
+2026-11-15 03:00:11 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-15 03:00:11 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-15 03:00:11 [WARN ] [1;33m⬆  Ada patch update: 35.0.2.2 → 35.0.3[0m
+2026-11-15 03:00:11 [WARN ] [1;33m⬆  Ada patch update: 35.0.2.2 → 35.0.3[0m
+2026-11-15 03:00:11 [WARN ] [1;33m   Jalankan: /home/serverbkad/srv/docker/apps/nextcloud-docker/nextcloud-manage.sh update[0m
+2026-11-15 03:00:11 [WARN ] [1;33m   Jalankan: /home/serverbkad/srv/docker/apps/nextcloud-docker/nextcloud-manage.sh update[0m
+
+ Container nextcloud-db Running 
+2026-11-15 03:30:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-15 03:30:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-15 03:30:01 [OK   ] [0;32mDatabase siap.[0m
+2026-11-15 03:30:01 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-15 03:30:01 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-15 03:30:01 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-15 03:30:02 [OK   ] [0;32mContainer siap.[0m
+2026-11-15 03:30:02 [OK   ] [0;32mContainer siap.[0m
+2026-11-15 03:30:03 [INFO ] [0;36mBackup database ke /home/serverbkad/srv/docker/apps/nextcloud-docker/backups/nextcloud-db-20261115-033003.sql.gz ...[0m
+2026-11-15 03:30:03 [INFO ] [0;36mBackup database ke /home/serverbkad/srv/docker/apps/nextcloud-docker/backups/nextcloud-db-20261115-033003.sql.gz ...[0m
+2026-11-15 03:30:14 [OK   ] [0;32mBackup selesai: /home/serverbkad/srv/docker/apps/nextcloud-docker/backups/nextcloud-db-20261115-033003.sql.gz[0m
+2026-11-15 03:30:14 [OK   ] [0;32mBackup selesai: /home/serverbkad/srv/docker/apps/nextcloud-docker/backups/nextcloud-db-20261115-033003.sql.gz[0m
+
+[0;36m═══════════ AUTO-UPGRADE NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-15 03:30:14 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-15 03:30:14 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-15 03:30:14 [OK   ] [0;32mDatabase siap.[0m
+2026-11-15 03:30:14 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-app Running 
+ Container nextcloud-db Running 
+2026-11-15 03:30:14 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-15 03:30:14 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-15 03:30:15 [OK   ] [0;32mContainer siap.[0m
+2026-11-15 03:30:15 [OK   ] [0;32mContainer siap.[0m
+2026-11-15 03:30:16 [INFO ] [0;36mVersi terpasang: 35.0.2.2 (major 35)[0m
+2026-11-15 03:30:16 [INFO ] [0;36mVersi terpasang: 35.0.2.2 (major 35)[0m
+2026-11-15 03:30:16 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-15 03:30:16 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-15 03:30:19 [INFO ] [0;36mMajor terbaru yang tersedia: v35[0m
+2026-11-15 03:30:19 [INFO ] [0;36mMajor terbaru yang tersedia: v35[0m
+2026-11-15 03:30:19 [INFO ] [0;36mTidak ada major upgrade. Memeriksa patch update...[0m
+2026-11-15 03:30:19 [INFO ] [0;36mTidak ada major upgrade. Memeriksa patch update...[0m
+2026-11-15 03:30:19 [INFO ] [0;36m════════ Memeriksa dan menerapkan update Nextcloud ════════[0m
+2026-11-15 03:30:19 [INFO ] [0;36m════════ Memeriksa dan menerapkan update Nextcloud ════════[0m
+ Container nextcloud-db Running 
+2026-11-15 03:30:19 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-15 03:30:19 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-15 03:30:19 [OK   ] [0;32mDatabase siap.[0m
+2026-11-15 03:30:19 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-15 03:30:20 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-15 03:30:20 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-15 03:30:20 [OK   ] [0;32mContainer siap.[0m
+2026-11-15 03:30:20 [OK   ] [0;32mContainer siap.[0m
+2026-11-15 03:30:21 [INFO ] [0;36mVersi terpasang saat ini: 35.0.2.2[0m
+2026-11-15 03:30:21 [INFO ] [0;36mVersi terpasang saat ini: 35.0.2.2[0m
+2026-11-15 03:30:22 [INFO ] [0;36mImage tag aktif: nextcloud:35-apache[0m
+2026-11-15 03:30:22 [INFO ] [0;36mImage tag aktif: nextcloud:35-apache[0m
+2026-11-15 03:30:22 [INFO ] [0;36mMenarik image terbaru untuk nextcloud:35-apache...[0m
+2026-11-15 03:30:22 [INFO ] [0;36mMenarik image terbaru untuk nextcloud:35-apache...[0m
+ Image nextcloud:35-apache Pulling 
+ 37fb86c2a767 Already exists 0B
+ e1af7931d349 Already exists 0B
+ 069aa4a0e623 Already exists 0B
+ c2df53f4c168 Already exists 0B
+ 16e21cd5a0d7 Already exists 0B
+ 8f2131b95a45 Already exists 0B
+ b8483d994bf7 Already exists 0B
+ 0c62cbaa6d4c Already exists 0B
+ dc3e0450a753 Already exists 0B
+ 7ee36668eb99 Already exists 0B
+ bf0c10efe273 Already exists 0B
+ b5483f93036a Already exists 0B
+ c6f1d2d868e6 Already exists 0B
+ 4f4fb700ef54 Already exists 0B
+ 9063ac897184 Pulling fs layer 0B
+ 2d736c8693ae Pulling fs layer 0B
+ 0fe6ada13bbc Pulling fs layer 0B
+ 0adacc92f270 Pulling fs layer 0B
+ 8047e9adaee4 Pulling fs layer 0B
+ b9f7209b05d2 Pulling fs layer 0B
+ 8c8be31f411c Pulling fs layer 0B
+ a2874777e271 Pulling fs layer 0B
+ b9f7209b05d2 Waiting 0B
+ 8c8be31f411c Waiting 0B
+ a2874777e271 Waiting 0B
+ 0adacc92f270 Waiting 0B
+ 8047e9adaee4 Waiting 0B
+ 0fe6ada13bbc Downloading 806B
+ 0fe6ada13bbc Verifying Checksum 0B
+ 0fe6ada13bbc Download complete 0B
+ 2d736c8693ae Downloading 376.2kB
+ 9063ac897184 Downloading 228.8kB
+ 2d736c8693ae Downloading 753.1kB
+ 9063ac897184 Downloading 916.9kB
+ 2d736c8693ae Downloading 1.884MB
+ 9063ac897184 Downloading 1.834MB
+ 0adacc92f270 Downloading 575B
+ 0adacc92f270 Verifying Checksum 0B
+ 0adacc92f270 Download complete 0B
+ 2d736c8693ae Downloading 2.637MB
+ 9063ac897184 Downloading 2.752MB
+ 9063ac897184 Downloading 3.669MB
+ 2d736c8693ae Downloading 3.391MB
+ 8047e9adaee4 Downloading 403B
+ 8047e9adaee4 Verifying Checksum 0B
+ 8047e9adaee4 Download complete 0B
+ 9063ac897184 Downloading 4.587MB
+ 2d736c8693ae Downloading 4.145MB
+ 9063ac897184 Downloading 5.504MB
+ 2d736c8693ae Downloading 4.898MB
+ 9063ac897184 Downloading 5.963MB
+ b9f7209b05d2 Downloading 532.5kB
+ 9063ac897184 Downloading 6.651MB
+ 2d736c8693ae Downloading 5.652MB
+ 9063ac897184 Downloading 7.339MB
+ b9f7209b05d2 Downloading 1.065MB
+ 2d736c8693ae Downloading 6.406MB
+ 9063ac897184 Downloading 8.028MB
+ b9f7209b05d2 Downloading 1.606MB
+ 9063ac897184 Downloading 8.716MB
+ 2d736c8693ae Downloading 7.159MB
+ b9f7209b05d2 Downloading 2.146MB
+ 9063ac897184 Downloading 9.174MB
+ b9f7209b05d2 Downloading 2.687MB
+ 2d736c8693ae Downloading 7.913MB
+ 9063ac897184 Downloading 9.863MB
+ b9f7209b05d2 Downloading 3.228MB
+ 9063ac897184 Downloading 10.55MB
+ 2d736c8693ae Downloading 8.667MB
+ b9f7209b05d2 Downloading 3.768MB
+ 9063ac897184 Downloading 11.24MB
+ 2d736c8693ae Downloading 9.42MB
+ b9f7209b05d2 Downloading 4.309MB
+ 9063ac897184 Downloading 11.93MB
+ 2d736c8693ae Downloading 9.797MB
+ b9f7209b05d2 Downloading 4.85MB
+ 9063ac897184 Downloading 12.62MB
+ 2d736c8693ae Downloading 10.17MB
+ b9f7209b05d2 Downloading 5.391MB
+ 2d736c8693ae Downloading 10.55MB
+ 9063ac897184 Downloading 13.3MB
+ b9f7209b05d2 Downloading 5.931MB
+ 2d736c8693ae Downloading 10.93MB
+ 9063ac897184 Downloading 13.76MB
+ b9f7209b05d2 Downloading 6.472MB
+ 9063ac897184 Downloading 14.22MB
+ b9f7209b05d2 Downloading 7.013MB
+ 2d736c8693ae Downloading 11.68MB
+ 9063ac897184 Downloading 14.68MB
+ b9f7209b05d2 Downloading 7.553MB
+ 2d736c8693ae Downloading 12.43MB
+ 9063ac897184 Downloading 15.37MB
+ 2d736c8693ae Downloading 12.81MB
+ b9f7209b05d2 Downloading 8.635MB
+ 9063ac897184 Downloading 15.83MB
+ 2d736c8693ae Downloading 13.19MB
+ 9063ac897184 Downloading 16.29MB
+ b9f7209b05d2 Downloading 9.716MB
+ 2d736c8693ae Downloading 13.57MB
+ b9f7209b05d2 Downloading 10.26MB
+ 9063ac897184 Downloading 16.74MB
+ 2d736c8693ae Downloading 13.94MB
+ 2d736c8693ae Downloading 14.32MB
+ 9063ac897184 Downloading 17.2MB
+ b9f7209b05d2 Downloading 11.34MB
+ 9063ac897184 Downloading 17.66MB
+ b9f7209b05d2 Downloading 11.88MB
+ 2d736c8693ae Downloading 15.07MB
+ b9f7209b05d2 Downloading 12.42MB
+ 9063ac897184 Downloading 18.12MB
+ 2d736c8693ae Downloading 15.45MB
+ b9f7209b05d2 Downloading 12.96MB
+ 9063ac897184 Downloading 18.58MB
+ 2d736c8693ae Downloading 16.2MB
+ b9f7209b05d2 Downloading 13.5MB
+ 9063ac897184 Downloading 19.04MB
+ b9f7209b05d2 Downloading 14.04MB
+ 9063ac897184 Downloading 19.5MB
+ 2d736c8693ae Downloading 16.96MB
+ b9f7209b05d2 Downloading 14.58MB
+ 9063ac897184 Downloading 19.96MB
+ b9f7209b05d2 Downloading 15.12MB
+ 9063ac897184 Downloading 20.41MB
+ 2d736c8693ae Downloading 17.71MB
+ b9f7209b05d2 Downloading 15.66MB
+ 2d736c8693ae Downloading 18.09MB
+ 9063ac897184 Downloading 20.87MB
+ b9f7209b05d2 Downloading 16.2MB
+ 2d736c8693ae Downloading 18.46MB
+ 9063ac897184 Downloading 21.33MB
+ b9f7209b05d2 Downloading 16.74MB
+ 9063ac897184 Verifying Checksum 0B
+ 9063ac897184 Download complete 0B
+ 2d736c8693ae Downloading 19.22MB
+ b9f7209b05d2 Downloading 17.83MB
+ 9063ac897184 Extracting 229.4kB
+ 2d736c8693ae Downloading 19.97MB
+ 9063ac897184 Extracting 1.835MB
+ 8c8be31f411c Downloading 4.149kB
+ 8c8be31f411c Download complete 0B
+ b9f7209b05d2 Downloading 18.91MB
+ 2d736c8693ae Downloading 20.73MB
+ 9063ac897184 Extracting 2.753MB
+ b9f7209b05d2 Downloading 19.98MB
+ 9063ac897184 Extracting 3.899MB
+ 2d736c8693ae Downloading 21.48MB
+ 9063ac897184 Extracting 6.423MB
+ b9f7209b05d2 Downloading 21.06MB
+ 2d736c8693ae Downloading 22.23MB
+ 9063ac897184 Extracting 9.175MB
+ b9f7209b05d2 Downloading 22.13MB
+ a2874777e271 Download complete 0B
+ 2d736c8693ae Downloading 22.99MB
+ 9063ac897184 Extracting 12.16MB
+ b9f7209b05d2 Downloading 23.21MB
+ 9063ac897184 Extracting 15.14MB
+ 2d736c8693ae Downloading 23.74MB
+ 9063ac897184 Extracting 17.66MB
+ b9f7209b05d2 Downloading 24.29MB
+ 2d736c8693ae Downloading 24.49MB
+ 9063ac897184 Extracting 18.58MB
+ 2d736c8693ae Downloading 25.25MB
+ b9f7209b05d2 Downloading 25.38MB
+ 9063ac897184 Extracting 19.27MB
+ 2d736c8693ae Downloading 26MB
+ b9f7209b05d2 Downloading 26.46MB
+ 2d736c8693ae Downloading 26.75MB
+ b9f7209b05d2 Downloading 27.53MB
+ 9063ac897184 Extracting 21.53MB
+ 2d736c8693ae Downloading 27.51MB
+ b9f7209b05d2 Downloading 28.62MB
+ 2d736c8693ae Downloading 28.26MB
+ 9063ac897184 Pull complete 0B
+ b9f7209b05d2 Downloading 29.7MB
+ 2d736c8693ae Downloading 29.02MB
+ b9f7209b05d2 Downloading 30.78MB
+ 2d736c8693ae Downloading 29.77MB
+ b9f7209b05d2 Downloading 31.84MB
+ 2d736c8693ae Downloading 30.52MB
+ b9f7209b05d2 Downloading 32.93MB
+ 2d736c8693ae Downloading 31.28MB
+ b9f7209b05d2 Downloading 34.01MB
+ 2d736c8693ae Downloading 32.03MB
+ 2d736c8693ae Downloading 32.78MB
+ b9f7209b05d2 Downloading 35.09MB
+ 2d736c8693ae Downloading 33.54MB
+ b9f7209b05d2 Downloading 36.17MB
+ 2d736c8693ae Downloading 34.29MB
+ b9f7209b05d2 Downloading 37.25MB
+ 2d736c8693ae Downloading 35.04MB
+ 2d736c8693ae Downloading 35.8MB
+ b9f7209b05d2 Downloading 38.33MB
+ 2d736c8693ae Downloading 36.55MB
+ b9f7209b05d2 Downloading 39.41MB
+ 2d736c8693ae Verifying Checksum 0B
+ 2d736c8693ae Download complete 0B
+ b9f7209b05d2 Downloading 40.5MB
+ 2d736c8693ae Extracting 393.2kB
+ 2d736c8693ae Extracting 3.146MB
+ b9f7209b05d2 Downloading 42.12MB
+ b9f7209b05d2 Downloading 43.72MB
+ 2d736c8693ae Extracting 3.539MB
+ b9f7209b05d2 Downloading 45.32MB
+ 2d736c8693ae Extracting 3.932MB
+ b9f7209b05d2 Downloading 46.93MB
+ 2d736c8693ae Extracting 5.505MB
+ b9f7209b05d2 Downloading 48.51MB
+ 2d736c8693ae Extracting 6.685MB
+ b9f7209b05d2 Downloading 50.13MB
+ b9f7209b05d2 Downloading 51.73MB
+ 2d736c8693ae Extracting 7.471MB
+ b9f7209b05d2 Downloading 52.8MB
+ 2d736c8693ae Extracting 7.864MB
+ b9f7209b05d2 Downloading 54.4MB
+ 2d736c8693ae Extracting 9.437MB
+ b9f7209b05d2 Downloading 56.01MB
+ 2d736c8693ae Extracting 11.01MB
+ b9f7209b05d2 Downloading 57.61MB
+ 2d736c8693ae Extracting 11.8MB
+ b9f7209b05d2 Downloading 59.21MB
+ 2d736c8693ae Extracting 12.98MB
+ 2d736c8693ae Extracting 14.94MB
+ b9f7209b05d2 Downloading 60.82MB
+ 2d736c8693ae Extracting 18.87MB
+ b9f7209b05d2 Downloading 62.43MB
+ 2d736c8693ae Extracting 22.41MB
+ b9f7209b05d2 Downloading 64.03MB
+ 2d736c8693ae Extracting 25.17MB
+ b9f7209b05d2 Downloading 65.62MB
+ 2d736c8693ae Extracting 27.92MB
+ 2d736c8693ae Extracting 30.67MB
+ b9f7209b05d2 Downloading 67.24MB
+ b9f7209b05d2 Downloading 68.84MB
+ 2d736c8693ae Extracting 33.42MB
+ b9f7209b05d2 Downloading 70.45MB
+ 2d736c8693ae Extracting 36.18MB
+ b9f7209b05d2 Downloading 72.05MB
+ b9f7209b05d2 Downloading 73.65MB
+ b9f7209b05d2 Downloading 75.25MB
+ b9f7209b05d2 Downloading 76.85MB
+ 2d736c8693ae Extracting 36.57MB
+ b9f7209b05d2 Downloading 78.46MB
+ 2d736c8693ae Extracting 36.96MB
+ 2d736c8693ae Extracting 37.02MB
+ b9f7209b05d2 Downloading 80.06MB
+ b9f7209b05d2 Downloading 81.13MB
+ 2d736c8693ae Pull complete 0B
+ 0fe6ada13bbc Extracting 806B
+ 0fe6ada13bbc Extracting 806B
+ b9f7209b05d2 Downloading 82.75MB
+ b9f7209b05d2 Downloading 86.46MB
+ b9f7209b05d2 Downloading 88.07MB
+ 0fe6ada13bbc Pull complete 0B
+ 0adacc92f270 Extracting 575B
+ 0adacc92f270 Extracting 575B
+ b9f7209b05d2 Downloading 90.21MB
+ b9f7209b05d2 Downloading 91.82MB
+ 0adacc92f270 Pull complete 0B
+ 8047e9adaee4 Extracting 403B
+ 8047e9adaee4 Extracting 403B
+ b9f7209b05d2 Downloading 93.43MB
+ b9f7209b05d2 Downloading 95.03MB
+ 8047e9adaee4 Pull complete 0B
+ b9f7209b05d2 Downloading 96.64MB
+ b9f7209b05d2 Downloading 98.24MB
+ b9f7209b05d2 Downloading 99.83MB
+ b9f7209b05d2 Downloading 101.4MB
+ b9f7209b05d2 Downloading 103MB
+ b9f7209b05d2 Downloading 104.1MB
+ b9f7209b05d2 Downloading 105.7MB
+ b9f7209b05d2 Downloading 107.3MB
+ b9f7209b05d2 Downloading 108.9MB
+ b9f7209b05d2 Downloading 110MB
+ b9f7209b05d2 Downloading 111.6MB
+ b9f7209b05d2 Downloading 113.2MB
+ b9f7209b05d2 Downloading 114.7MB
+ b9f7209b05d2 Downloading 115.8MB
+ b9f7209b05d2 Downloading 117.4MB
+ b9f7209b05d2 Downloading 119MB
+ b9f7209b05d2 Downloading 120.6MB
+ b9f7209b05d2 Downloading 122.7MB
+ b9f7209b05d2 Downloading 124.3MB
+ b9f7209b05d2 Downloading 126.5MB
+ b9f7209b05d2 Downloading 128.1MB
+ b9f7209b05d2 Downloading 129.7MB
+ b9f7209b05d2 Downloading 131.3MB
+ b9f7209b05d2 Downloading 132.9MB
+ b9f7209b05d2 Downloading 134.5MB
+ b9f7209b05d2 Downloading 136.1MB
+ b9f7209b05d2 Downloading 137.7MB
+ b9f7209b05d2 Downloading 139.3MB
+ b9f7209b05d2 Downloading 140.8MB
+ b9f7209b05d2 Downloading 142.5MB
+ b9f7209b05d2 Downloading 144.1MB
+ b9f7209b05d2 Downloading 145.7MB
+ b9f7209b05d2 Downloading 147.3MB
+ b9f7209b05d2 Downloading 148.9MB
+ b9f7209b05d2 Downloading 150.5MB
+ b9f7209b05d2 Downloading 152.1MB
+ b9f7209b05d2 Downloading 153.7MB
+ b9f7209b05d2 Downloading 155.3MB
+ b9f7209b05d2 Downloading 156.9MB
+ b9f7209b05d2 Downloading 158.5MB
+ b9f7209b05d2 Downloading 160.1MB
+ b9f7209b05d2 Downloading 161.6MB
+ b9f7209b05d2 Downloading 163.3MB
+ b9f7209b05d2 Downloading 164.9MB
+ b9f7209b05d2 Downloading 166.5MB
+ b9f7209b05d2 Downloading 168.1MB
+ b9f7209b05d2 Downloading 169.7MB
+ b9f7209b05d2 Downloading 171.3MB
+ b9f7209b05d2 Downloading 172.9MB
+ b9f7209b05d2 Downloading 174.5MB
+ b9f7209b05d2 Downloading 176.1MB
+ b9f7209b05d2 Downloading 177.7MB
+ b9f7209b05d2 Downloading 179.3MB
+ b9f7209b05d2 Downloading 180.9MB
+ b9f7209b05d2 Downloading 182.5MB
+ b9f7209b05d2 Downloading 184.1MB
+ b9f7209b05d2 Downloading 185.7MB
+ b9f7209b05d2 Downloading 187.3MB
+ b9f7209b05d2 Downloading 188.9MB
+ b9f7209b05d2 Downloading 190.5MB
+ b9f7209b05d2 Downloading 192.1MB
+ b9f7209b05d2 Downloading 193.7MB
+ b9f7209b05d2 Downloading 195.3MB
+ b9f7209b05d2 Downloading 196.9MB
+ b9f7209b05d2 Downloading 198.5MB
+ b9f7209b05d2 Downloading 200.1MB
+ b9f7209b05d2 Downloading 201.7MB
+ b9f7209b05d2 Downloading 203.3MB
+ b9f7209b05d2 Downloading 204.9MB
+ b9f7209b05d2 Downloading 206.5MB
+ b9f7209b05d2 Downloading 208.1MB
+ b9f7209b05d2 Downloading 209.7MB
+ b9f7209b05d2 Downloading 211.3MB
+ b9f7209b05d2 Downloading 212.9MB
+ b9f7209b05d2 Downloading 214.5MB
+ b9f7209b05d2 Downloading 216.1MB
+ b9f7209b05d2 Downloading 217.7MB
+ b9f7209b05d2 Downloading 219.3MB
+ b9f7209b05d2 Downloading 220.9MB
+ b9f7209b05d2 Downloading 222.6MB
+ b9f7209b05d2 Downloading 224.2MB
+ b9f7209b05d2 Downloading 225.8MB
+ b9f7209b05d2 Downloading 227.4MB
+ b9f7209b05d2 Downloading 229MB
+ b9f7209b05d2 Downloading 230.6MB
+ b9f7209b05d2 Downloading 232.2MB
+ b9f7209b05d2 Downloading 233.8MB
+ b9f7209b05d2 Downloading 235.4MB
+ b9f7209b05d2 Downloading 237MB
+ b9f7209b05d2 Downloading 238.6MB
+ b9f7209b05d2 Downloading 240.2MB
+ b9f7209b05d2 Downloading 241.8MB
+ b9f7209b05d2 Downloading 243.4MB
+ b9f7209b05d2 Downloading 243.9MB
+ b9f7209b05d2 Downloading 246.1MB
+ b9f7209b05d2 Downloading 247.7MB
+ b9f7209b05d2 Downloading 249.3MB
+ b9f7209b05d2 Downloading 250.9MB
+ b9f7209b05d2 Downloading 252.5MB
+ b9f7209b05d2 Downloading 254.1MB
+ b9f7209b05d2 Downloading 255.7MB
+ b9f7209b05d2 Downloading 257.3MB
+ b9f7209b05d2 Downloading 258.9MB
+ b9f7209b05d2 Downloading 260.5MB
+ b9f7209b05d2 Downloading 262.1MB
+ b9f7209b05d2 Downloading 263.6MB
+ b9f7209b05d2 Downloading 265.3MB
+ b9f7209b05d2 Downloading 266.8MB
+ b9f7209b05d2 Downloading 268.4MB
+ b9f7209b05d2 Downloading 270.1MB
+ b9f7209b05d2 Downloading 271.7MB
+ b9f7209b05d2 Downloading 273.3MB
+ b9f7209b05d2 Downloading 274.9MB
+ b9f7209b05d2 Verifying Checksum 0B
+ b9f7209b05d2 Download complete 0B
+ b9f7209b05d2 Extracting 557.1kB
+ b9f7209b05d2 Extracting 1.114MB
+ b9f7209b05d2 Extracting 1.671MB
+ b9f7209b05d2 Extracting 2.228MB
+ b9f7209b05d2 Extracting 2.785MB
+ b9f7209b05d2 Extracting 3.899MB
+ b9f7209b05d2 Extracting 5.014MB
+ b9f7209b05d2 Extracting 6.128MB
+ b9f7209b05d2 Extracting 6.685MB
+ b9f7209b05d2 Extracting 7.242MB
+ b9f7209b05d2 Extracting 7.799MB
+ b9f7209b05d2 Extracting 8.356MB
+ b9f7209b05d2 Extracting 10.03MB
+ b9f7209b05d2 Extracting 10.58MB
+ b9f7209b05d2 Extracting 11.7MB
+ b9f7209b05d2 Extracting 13.37MB
+ b9f7209b05d2 Extracting 13.93MB
+ b9f7209b05d2 Extracting 14.48MB
+ b9f7209b05d2 Extracting 15.6MB
+ b9f7209b05d2 Extracting 16.71MB
+ b9f7209b05d2 Extracting 18.38MB
+ b9f7209b05d2 Extracting 20.05MB
+ b9f7209b05d2 Extracting 20.61MB
+ b9f7209b05d2 Extracting 21.17MB
+ b9f7209b05d2 Extracting 22.28MB
+ b9f7209b05d2 Extracting 22.84MB
+ b9f7209b05d2 Extracting 23.95MB
+ b9f7209b05d2 Extracting 24.51MB
+ b9f7209b05d2 Extracting 25.07MB
+ b9f7209b05d2 Extracting 26.18MB
+ b9f7209b05d2 Extracting 27.85MB
+ b9f7209b05d2 Extracting 29.52MB
+ b9f7209b05d2 Extracting 31.2MB
+ b9f7209b05d2 Extracting 32.87MB
+ b9f7209b05d2 Extracting 33.98MB
+ b9f7209b05d2 Extracting 34.54MB
+ b9f7209b05d2 Extracting 35.09MB
+ b9f7209b05d2 Extracting 36.77MB
+ b9f7209b05d2 Extracting 37.32MB
+ b9f7209b05d2 Extracting 37.88MB
+ b9f7209b05d2 Extracting 38.44MB
+ b9f7209b05d2 Extracting 42.34MB
+ b9f7209b05d2 Extracting 42.89MB
+ b9f7209b05d2 Extracting 44.56MB
+ b9f7209b05d2 Extracting 46.24MB
+ b9f7209b05d2 Extracting 46.79MB
+ b9f7209b05d2 Extracting 47.35MB
+ b9f7209b05d2 Extracting 49.58MB
+ b9f7209b05d2 Extracting 50.14MB
+ b9f7209b05d2 Extracting 51.81MB
+ b9f7209b05d2 Extracting 53.48MB
+ b9f7209b05d2 Extracting 55.71MB
+ b9f7209b05d2 Extracting 57.93MB
+ b9f7209b05d2 Extracting 59.6MB
+ b9f7209b05d2 Extracting 61.28MB
+ b9f7209b05d2 Extracting 62.95MB
+ b9f7209b05d2 Extracting 64.62MB
+ b9f7209b05d2 Extracting 66.29MB
+ b9f7209b05d2 Extracting 67.96MB
+ b9f7209b05d2 Extracting 69.63MB
+ b9f7209b05d2 Extracting 71.86MB
+ b9f7209b05d2 Extracting 74.09MB
+ b9f7209b05d2 Extracting 75.76MB
+ b9f7209b05d2 Extracting 77.43MB
+ b9f7209b05d2 Extracting 79.1MB
+ b9f7209b05d2 Extracting 80.77MB
+ b9f7209b05d2 Extracting 81.33MB
+ b9f7209b05d2 Extracting 82.44MB
+ b9f7209b05d2 Extracting 84.12MB
+ b9f7209b05d2 Extracting 85.79MB
+ b9f7209b05d2 Extracting 86.34MB
+ b9f7209b05d2 Extracting 88.01MB
+ b9f7209b05d2 Extracting 89.13MB
+ b9f7209b05d2 Extracting 90.8MB
+ b9f7209b05d2 Extracting 92.47MB
+ b9f7209b05d2 Extracting 93.03MB
+ b9f7209b05d2 Extracting 93.59MB
+ b9f7209b05d2 Extracting 94.14MB
+ b9f7209b05d2 Extracting 94.7MB
+ b9f7209b05d2 Extracting 95.81MB
+ b9f7209b05d2 Extracting 96.93MB
+ b9f7209b05d2 Extracting 97.48MB
+ b9f7209b05d2 Extracting 100.3MB
+ b9f7209b05d2 Extracting 101.9MB
+ b9f7209b05d2 Extracting 104.2MB
+ b9f7209b05d2 Extracting 105.3MB
+ b9f7209b05d2 Extracting 106.4MB
+ b9f7209b05d2 Extracting 107.5MB
+ b9f7209b05d2 Extracting 108.1MB
+ b9f7209b05d2 Extracting 108.6MB
+ b9f7209b05d2 Extracting 109.2MB
+ b9f7209b05d2 Extracting 110.3MB
+ b9f7209b05d2 Extracting 110.9MB
+ b9f7209b05d2 Extracting 111.4MB
+ b9f7209b05d2 Extracting 117.5MB
+ b9f7209b05d2 Extracting 124.2MB
+ b9f7209b05d2 Extracting 129.8MB
+ b9f7209b05d2 Extracting 130.9MB
+ b9f7209b05d2 Extracting 132MB
+ b9f7209b05d2 Extracting 132.6MB
+ b9f7209b05d2 Extracting 133.1MB
+ b9f7209b05d2 Extracting 134.8MB
+ b9f7209b05d2 Extracting 137MB
+ b9f7209b05d2 Extracting 137.6MB
+ b9f7209b05d2 Extracting 138.1MB
+ b9f7209b05d2 Extracting 143.7MB
+ b9f7209b05d2 Extracting 148.7MB
+ b9f7209b05d2 Extracting 153.7MB
+ b9f7209b05d2 Extracting 158.2MB
+ b9f7209b05d2 Extracting 160.4MB
+ b9f7209b05d2 Extracting 161MB
+ b9f7209b05d2 Extracting 163.8MB
+ b9f7209b05d2 Extracting 167.1MB
+ b9f7209b05d2 Extracting 171.6MB
+ b9f7209b05d2 Extracting 176MB
+ b9f7209b05d2 Extracting 179.9MB
+ b9f7209b05d2 Extracting 184.9MB
+ b9f7209b05d2 Extracting 189.4MB
+ b9f7209b05d2 Extracting 190.5MB
+ b9f7209b05d2 Extracting 196.6MB
+ b9f7209b05d2 Extracting 204.4MB
+ b9f7209b05d2 Extracting 211.7MB
+ b9f7209b05d2 Extracting 219.5MB
+ b9f7209b05d2 Extracting 222.3MB
+ b9f7209b05d2 Extracting 228.4MB
+ b9f7209b05d2 Extracting 234.5MB
+ b9f7209b05d2 Extracting 241.2MB
+ b9f7209b05d2 Extracting 249MB
+ b9f7209b05d2 Extracting 254.6MB
+ b9f7209b05d2 Extracting 255.7MB
+ b9f7209b05d2 Extracting 257.4MB
+ b9f7209b05d2 Extracting 258.5MB
+ b9f7209b05d2 Extracting 260.7MB
+ b9f7209b05d2 Extracting 262.4MB
+ b9f7209b05d2 Extracting 264MB
+ b9f7209b05d2 Extracting 266.3MB
+ b9f7209b05d2 Extracting 267.4MB
+ b9f7209b05d2 Extracting 267.9MB
+ b9f7209b05d2 Extracting 269.1MB
+ b9f7209b05d2 Extracting 270.7MB
+ b9f7209b05d2 Extracting 271.8MB
+ b9f7209b05d2 Extracting 273MB
+ b9f7209b05d2 Extracting 274.1MB
+ b9f7209b05d2 Extracting 274.6MB
+ b9f7209b05d2 Extracting 275.2MB
+ b9f7209b05d2 Extracting 275.7MB
+ b9f7209b05d2 Extracting 276.2MB
+ b9f7209b05d2 Pull complete 0B
+ 8c8be31f411c Extracting 4.149kB
+ 8c8be31f411c Extracting 4.149kB
+ 8c8be31f411c Pull complete 0B
+ a2874777e271 Extracting 2.594kB
+ a2874777e271 Extracting 2.594kB
+ a2874777e271 Pull complete 0B
+ Image nextcloud:35-apache Pulled 
+2026-11-15 03:31:32 [WARN ] [1;33mUpdate ditemukan! Menerapkan upgrade...[0m
+2026-11-15 03:31:32 [WARN ] [1;33mUpdate ditemukan! Menerapkan upgrade...[0m
+2026-11-15 03:31:32 [INFO ] [0;36m  Image lama : sha256:b5cf942dc4923...[0m
+2026-11-15 03:31:32 [INFO ] [0;36m  Image lama : sha256:b5cf942dc4923...[0m
+2026-11-15 03:31:32 [INFO ] [0;36m  Image baru : sha256:4093075d9ce8a...[0m
+2026-11-15 03:31:32 [INFO ] [0;36m  Image baru : sha256:4093075d9ce8a...[0m
+2026-11-15 03:31:32 [INFO ] [0;36mMerestart container dengan image terbaru...[0m
+2026-11-15 03:31:32 [INFO ] [0;36mMerestart container dengan image terbaru...[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Recreate 
+ Container nextcloud-app Recreated 
+ Container nextcloud-app Starting 
+ Container nextcloud-app Started 
+2026-11-15 03:31:58 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-15 03:31:58 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-15 03:31:58 [OK   ] [0;32mContainer siap.[0m
+2026-11-15 03:31:58 [OK   ] [0;32mContainer siap.[0m
+2026-11-15 03:31:59 [INFO ] [0;36mMenjalankan repair pasca upgrade...[0m
+2026-11-15 03:31:59 [INFO ] [0;36mMenjalankan repair pasca upgrade...[0m
+ - Repair MySQL collation
+     - Not a mysql database -> nothing to do
+ - Clean tags and favorites
+     - 0 tags of deleted users have been removed.
+     - 0 tags for delete files have been removed.
+     - 0 tag entries for deleted tags have been removed.
+     - 0 tags with no entries have been removed.
+ - Repair invalid shares
+ - Move .step file of updater to backup location
+ - Add move avatar background job
+     - Repair step already executed
+ - Add preview cleanup background jobs
+ - Migrate oc_properties table to nextcloud schema
+     - oc_properties table does not exist.
+ - Migrate oauth2_clients table to nextcloud schema
+     - Update the oauth2_access_tokens table schema.
+     - Update the oauth2_clients table schema.
+     - Delete clients (and their related access tokens) with the redirect_uri starting with oc:// or ending with *
+ - Repair language codes
+ - Add log rotate job
+ - Clear frontend caches
+     - Image cache cleared
+     - JS cache cleared
+ - Clear every generated avatar
+ - Add preview background cleanup job
+ - Queue a one-time job to cleanup old backups of the updater
+ - Cleanup invalid photocache files for carddav
+ - Add background job to cleanup login flow v2 tokens
+ - Remove potentially over exposing share links
+     - No need to remove link shares.
+ - Clear access cache of projects
+ - Reset generated avatar flag
+ - Keep legacy encryption enabled
+ - Check encryption key format
+ - Remove old dashboard app config data
+ - Add job to cleanup the bruteforce entries
+ - Queue a one-time job to check for user uploaded certificates
+ - Repair DAV shares
+ - Add background job to set the lookup server share state for users
+ - Add token cleanup job
+ - Clean up abandoned apps
+ - Add possibly missing system config
+ - Add AI tasks cleanup jobs
+ - Queue a job to generate metadata
+ - Cache logo dimension to fix size in emails on Outlook
+     - Theming is not used to provide a logo
+ - Remove legacy ".ocdata" file
+ - Add cleanup-deleted-users background job
+ - Add cleanup login tokens background job
+ - Validate account properties and store phone numbers in a known format for search
+     - Queued background to validate account properties.
+ - Queue a job to move the preview
+ - Migrate config keys
+ - Cleanup completed background jobs
+ - Add code integrity check background job
+ - AppAPI Daemons configuration GPU params update
+     - Daemons configuration GPU params updated: 0
+ - Upgrading Circles App
+ - Sync groups with their circles
+ - Fix component of birthday calendars
+     - 2 birthday calendars updated.
+ - Regenerating birthday calendars to use new icons and fix old birthday events without year
+     - Repair step already executed
+ - Fix broken values of calendar objects
+    0 [>---------------------------]
+ - Registering building of calendar search index as background job
+     - Repair step already executed
+ - Register building of social profile search index as background job
+     - Repair step already executed
+ - Disable system address book
+     - Skipping repair step system address book has less than the threshold 5000 of contacts no need to disable
+ - Registering background jobs to update cache for webcal calendars
+     - Added 0 background jobs to update webcal calendars
+ - Registering building of calendar reminder index as background job
+     - Repair step already executed
+ - Register a background job to update rooms and resources
+ - Queue jobs to clean up orphan event and contact data
+ - Remove activity entries of private events
+ - Clean up old calendar subscriptions from deleted users that were not cleaned-up
+    0 [->--------------------------]
+     - 0 calendar subscriptions without an user have been cleaned up
+ - Write default encryption module configuration to the database
+ - Fix the share type of guest shares when migrating from ownCloud
+ - Copy the share password into the dedicated column
+ - Set existing shares as accepted
+ - Restore default tags that are missing
+     - Looking up default tags
+     - 0 accounts to check found
+    0 [--->------------------------]
+ - Add a generated message-id to all Mail messages that have none
+     - Looking up messages without a message-id
+ - Purify and migrate collected mail addresses
+    0 [----->----------------------]
+ - Insert background jobs for all accounts
+    0 [------->--------------------]
+ - Make Mail itinerary extractor executable
+ - Create or update provisioned Mail accounts
+     - 0 accounts provisioned
+ - Repair Broken Threads for all mail accounts
+     - Repaired threads, 0 messages updated
+ - Queue a job to delete duplicated cached messages
+ - Clean up meta table
+ - Show a hint about the new editor to existing users
+ - Update OAuth token expiration times
+ - init metadata
+ - Switches from default updater server to the customer one if a valid subscription is available
+     - Repair step already executed
+ - Migrate some config values to lazy loading
+ - Send an admin notification if monthly report is disabled
+ - Force-reset all Text document sessions
+ - Initialize migration of background images from dashboard to theming app
+ - Add background job to check for backup codes
+ - Populating added database structures for workflows
+2026-11-15 03:32:15 [INFO ] [0;36mMenjalankan pemeliharaan database...[0m
+2026-11-15 03:32:15 [INFO ] [0;36mMenjalankan pemeliharaan database...[0m
+Nextcloud or one of the apps require upgrade - only a limited number of commands are available
+You may use your browser or the occ upgrade command to do the upgrade
+Adding additional activity_object index to the oc_activity table, this can take some time...
+oc_activity table updated successfully.
+Nextcloud or one of the apps require upgrade - only a limited number of commands are available
+You may use your browser or the occ upgrade command to do the upgrade
+Done.
+Nextcloud or one of the apps require upgrade - only a limited number of commands are available
+You may use your browser or the occ upgrade command to do the upgrade
+Done.
+2026-11-15 03:32:21 [OK   ] [0;32mPemeliharaan database selesai.[0m
+2026-11-15 03:32:21 [OK   ] [0;32mPemeliharaan database selesai.[0m
+Nextcloud or one of the apps require upgrade - only a limited number of commands are available
+You may use your browser or the occ upgrade command to do the upgrade
+Maintenance mode already disabled
+2026-11-15 03:32:21 [OK   ] [0;32mRepair pasca upgrade selesai.[0m
+2026-11-15 03:32:21 [OK   ] [0;32mRepair pasca upgrade selesai.[0m
+2026-11-15 03:32:22 [OK   ] [0;32m════════ Upgrade selesai: 35.0.2.2 → 35.0.2.2 ════════[0m
+2026-11-15 03:32:22 [OK   ] [0;32m════════ Upgrade selesai: 35.0.2.2 → 35.0.2.2 ════════[0m
+2026-11-15 03:32:22 [INFO ] Upgrade log: 35.0.2.2 -> 35.0.2.2 pada 2026-11-15 03:32:22
+2026-11-15 03:32:22 [INFO ] Upgrade log: 35.0.2.2 -> 35.0.2.2 pada 2026-11-15 03:32:22
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-16 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-16 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-16 03:00:01 [OK   ] [0;32mDatabase siap.[0m
+2026-11-16 03:00:01 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-16 03:00:01 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-16 03:00:01 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-16 03:00:02 [OK   ] [0;32mContainer siap.[0m
+2026-11-16 03:00:02 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.3.2[0m (major 35)
+2026-11-16 03:00:03 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-16 03:00:03 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.3[0m
+  Major terbaru      : [1;33mv35 (35.0.3)[0m
+
+2026-11-16 03:00:06 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-16 03:00:06 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-16 03:00:06 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-16 03:00:06 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-17 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-17 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-17 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+2026-11-17 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-17 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-17 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-17 03:00:03 [OK   ] [0;32mContainer siap.[0m
+2026-11-17 03:00:03 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.3.2[0m (major 35)
+2026-11-17 03:00:05 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-17 03:00:05 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.3[0m
+  Major terbaru      : [1;33mv35 (35.0.3)[0m
+
+2026-11-17 03:00:06 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-17 03:00:06 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-17 03:00:06 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-17 03:00:06 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
+
+[0;36m═══════════ CEK VERSI NEXTCLOUD ═══════════[0m
+ Container nextcloud-db Running 
+2026-11-18 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-18 03:00:01 [INFO ] [0;36mMenunggu database PostgreSQL siap...[0m
+2026-11-18 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+2026-11-18 03:00:02 [OK   ] [0;32mDatabase siap.[0m
+ Container nextcloud-db Running 
+ Container nextcloud-app Running 
+2026-11-18 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-18 03:00:02 [INFO ] [0;36mMenunggu container nextcloud-app siap...[0m
+2026-11-18 03:00:02 [OK   ] [0;32mContainer siap.[0m
+2026-11-18 03:00:02 [OK   ] [0;32mContainer siap.[0m
+  Versi terpasang    : [0;32m35.0.3.2[0m (major 35)
+2026-11-18 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+2026-11-18 03:00:04 [INFO ] [0;36mMemeriksa versi terbaru via GitHub API...[0m
+  Patch terbaru (v35): [1;33m35.0.3[0m
+  Major terbaru      : [1;33mv35 (35.0.3)[0m
+
+2026-11-18 03:00:07 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-18 03:00:07 [OK   ] [0;32m✓  Sudah menggunakan major version terbaru (v35).[0m
+2026-11-18 03:00:07 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+2026-11-18 03:00:07 [OK   ] [0;32m✓  Versi patch sudah terkini.[0m
+
